@@ -1128,12 +1128,12 @@ void KScenePlaceC::ChangeLoadArea()
 //##ModelId=3DBF946D0053
 void KScenePlaceC::ChangeProcessArea()
 {
-	KRUImage* pImage = NULL;
+	KRUImage*	pImage = NULL;
 	RECT	rc;
 	rc.left = (m_FocusRegion.x - 1) * KScenePlaceRegionC::RWPP_AREGION_WIDTH;
-	rc.top = (m_FocusRegion.y - 1) * KScenePlaceRegionC::RWPP_AREGION_HEIGHT;
-	rc.right = rc.left + SPWP_PROCESS_RANGE * KScenePlaceRegionC::RWPP_AREGION_WIDTH;
-	rc.bottom = rc.top + SPWP_PROCESS_RANGE * KScenePlaceRegionC::RWPP_AREGION_HEIGHT;
+	rc.top  = (m_FocusRegion.y - 1) *  KScenePlaceRegionC::RWPP_AREGION_HEIGHT;
+	rc.right  = rc.left + SPWP_PROCESS_RANGE * KScenePlaceRegionC::RWPP_AREGION_WIDTH;
+	rc.bottom = rc.top  + SPWP_PROCESS_RANGE * KScenePlaceRegionC::RWPP_AREGION_HEIGHT;
 
 	EnterCriticalSection(&m_ProcessCritical);
 	int h, v;
@@ -1163,7 +1163,7 @@ void KScenePlaceC::ChangeProcessArea()
 			if (pImage == NULL && l_bPrerenderGround)
 			{
 				pImage = GetFreeGroundImage();
-				//				_ASSERT(pImage);
+//				_ASSERT(pImage);
 			}
 			m_pRegions[i]->EnterProcessArea(pImage);
 		}
@@ -1216,6 +1216,7 @@ void KScenePlaceC::Preprocess()
 		m_FocusPosition.x + KScenePlaceRegionC::RWPP_AREGION_WIDTH * 2,
 		m_FocusPosition.y - KScenePlaceRegionC::RWPP_AREGION_HEIGHT * 2);
 
+	//--------获取内建对象的列表----------
 	for (i = 0; i < SPWP_NUM_REGIONS_IN_PROCESS_AREA; i++)
 	{
 		if (m_pInProcessAreaRegions[i])
@@ -1232,6 +1233,7 @@ void KScenePlaceC::Preprocess()
 		}
 	}
 
+	//--------处理高空对象---------
 	if (m_nNumObjsAbove)
 	{
 		m_pObjsAbove = (KBuildinObj**)malloc(sizeof(KBuildinObj*) * m_nNumObjsAbove);
@@ -1263,6 +1265,7 @@ void KScenePlaceC::Preprocess()
 		}			
 	}
 
+	//--------处理树方式排序的对象---------
 	class TreeObjSet : public KNode
 	{
 	public:
@@ -1277,6 +1280,7 @@ void KScenePlaceC::Preprocess()
 	TreeObjSet	*pNode1 = NULL, *pNode2 = NULL;
 	KIpotBuildinObj* pObj = NULL;
 
+	//---把同在一条直线上的连在一起--
 	for (i = 0; i < SPWP_NUM_REGIONS_IN_PROCESS_AREA; i++)
 	{
 		for (j = 0; j < RegionRtoData[i].nNumObjsTree; j++)
@@ -1340,6 +1344,7 @@ void KScenePlaceC::Preprocess()
 		}
 	}
 	
+	//----把线条组合按长度排序----
 	pNode1 = (TreeObjSet*)List.GetHead();
 	while(pNode1)
 	{
@@ -1363,6 +1368,7 @@ void KScenePlaceC::Preprocess()
 		List2.AddTail(pNode1);
 	};
 	
+	//----把按树方式排序的对象加入对象树-----
 	while(pNode1 = (TreeObjSet*)List2.RemoveHead())
 	{
 		while(pObj = pNode1->pObjs)
@@ -1374,36 +1380,33 @@ void KScenePlaceC::Preprocess()
 		delete pNode1;	
 	};
 
+	//----把线方式排序的对象进行根据线长度排序-----
 	if (nTotalLineObj)
 	{
-		struct LineObjItem
+		struct LineObjItem//---处理线方式排序的对象-----
 		{
 			int		nLength2;
-			KIpotBuildinObj* pObj;
+			KIpotBuildinObj*	pObj;
 		};
-		LineObjItem* pNodeList = new LineObjItem[nTotalLineObj];
+		LineObjItem* pNodeList = (LineObjItem*)malloc(sizeof(LineObjItem) * nTotalLineObj);
 		nTotalLineObj = 0;
 		if (pNodeList)
 		{
-			for (unsigned int i = 0; i < SPWP_NUM_REGIONS_IN_PROCESS_AREA; i++)
+			for (i = 0; i < SPWP_NUM_REGIONS_IN_PROCESS_AREA; i++)
 			{
-				for (unsigned int j = 0; j < RegionRtoData[i].nNumObjsLine; j++)
+				for (j = 0; j < RegionRtoData[i].nNumObjsLine; j++)
 				{
 					KIpotBuildinObj* pObj = &RegionRtoData[i].pObjsLine[j];
 					dx = pObj->oEndPos.x - pObj->oPosition.x;
 					dy = pObj->oEndPos.y - pObj->oPosition.y;
 					int nLength2 = dx * dx + dy * dy;
 
-					unsigned int k;
-					for (k = 0; k < nTotalLineObj; k++)
+					for (unsigned int k = 0; k < nTotalLineObj; k++)
 					{
 						if (nLength2 > pNodeList[k].nLength2)
 						{
-							for (unsigned int m = nTotalLineObj; m > k; m--)
-							{
-								pNodeList[m].pObj = pNodeList[m - 1].pObj;
-								pNodeList[m].nLength2 = pNodeList[m - 1].nLength2;
-							}
+							for (unsigned int j = nTotalLineObj; j > k; j--)
+								pNodeList[j] = pNodeList[j - 1];
 							pNodeList[k].pObj = pObj;
 							pNodeList[k].nLength2 = nLength2;
 							break;
@@ -1417,7 +1420,8 @@ void KScenePlaceC::Preprocess()
 					nTotalLineObj++;
 				}
 			}
-			for (int i = 0; i < nTotalLineObj; i++)
+			//----把线方式排序的对象加入对象树-----
+			for (i = 0; i < nTotalLineObj; i++)
 			{
 				m_ObjectsTree.AddLeafLine(pNodeList[i].pObj);
 			}
@@ -1426,7 +1430,7 @@ void KScenePlaceC::Preprocess()
 		}
 	}
 
-
+	//----把点方式排序的对象加入对象树-----
 	for (i = 0; i < SPWP_NUM_REGIONS_IN_PROCESS_AREA; i++)
 	{
 		for (j = 0; j < RegionRtoData[i].nNumObjsPoint; j++)
@@ -1436,6 +1440,7 @@ void KScenePlaceC::Preprocess()
 	}
 
 	
+	//----把场景内建光源加入树-----
 	KBuildInLightInfo* pLights = NULL;
 	for (i = 0; i < SPWP_NUM_REGIONS_IN_PROCESS_AREA; i++)
 	{
