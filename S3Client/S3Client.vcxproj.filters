@@ -1,0 +1,738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="½çÃæ">
+      <UniqueIdentifier>{4f50ae27-8fa4-4f13-92f8-6bc3b0a99834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæ»ù´¡">
+      <UniqueIdentifier>{9f65e92e-5f51-4d8a-9e26-b8e3b230b2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ">
+      <UniqueIdentifier>{f68955c9-116e-4982-8668-67c048cc741c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ">
+      <UniqueIdentifier>{6997e00a-3f8a-4dec-aaf7-163e10fe467a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ">
+      <UniqueIdentifier>{1d0f0fd2-9e08-4dc0-ac3e-2ffbdc5599ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\¹ÜÀí½çÃæ">
+      <UniqueIdentifier>{21c5ba19-8cdd-4917-a3c1-4c06d28ad1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\Ñ¡Ïî½çÃæ">
+      <UniqueIdentifier>{8bc2fb33-6ab6-4f47-9ead-ad7b468abd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\³õÊ¼½çÃæ">
+      <UniqueIdentifier>{0405fd35-e3a4-4d38-8e4d-15a2cb90ce21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä">
+      <UniqueIdentifier>{02d982d8-c51f-446c-8bf7-63e315044612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ">
+      <UniqueIdentifier>{523381d8-8570-402a-ace3-cd52a7da7daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\½ÇÉ«Ñ¡Ôñ">
+      <UniqueIdentifier>{fcce13ae-3cad-4cc4-8041-63ecbf511e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì">
+      <UniqueIdentifier>{a286af31-a7a1-49d0-bd6c-d0efb7d33bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÌáÊ¾´°¿Ú">
+      <UniqueIdentifier>{22a7eed6-590b-40af-b248-b133d8df1f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\×é¶Ó">
+      <UniqueIdentifier>{14ffe85d-96c2-46fb-9319-97d0028f9ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÆÁÄ»¶¥ÐÐ¿ØÖÆÌõÓëÏûÏ¢½çÃæ">
+      <UniqueIdentifier>{b7fecfd0-195f-43c5-8aca-cb73967ff740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\½»Ò×">
+      <UniqueIdentifier>{7d3b7e07-b214-4872-821d-ccb4b66a2f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÓÎÏ·ÊÀ½ç´°¿Ú">
+      <UniqueIdentifier>{0afc6e93-e354-413f-a3ee-72cb062948ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÏµÍ³ÏûÏ¢">
+      <UniqueIdentifier>{e8556e07-ca38-4dfd-96be-a27781a9e610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\Ð¡µØÍ¼">
+      <UniqueIdentifier>{9028eb33-5c17-44d6-806f-d17d08bce48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\Ñ¡ÑÕÉ«">
+      <UniqueIdentifier>{2f378786-8c26-4a1d-8ec9-4f326e3ab9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÐÂÊÖ½øÈë½çÃæ">
+      <UniqueIdentifier>{887c7849-ad6a-47d7-b6f0-5b815502a503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\²¥·Åvideo">
+      <UniqueIdentifier>{1870a975-f600-4ea2-afdd-0624c5345f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\°ïÖú½çÃæ">
+      <UniqueIdentifier>{cb5eee7a-a593-4702-a35c-4248a377439a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\×Ô¶¯ÖØÁ¬">
+      <UniqueIdentifier>{672c88aa-40ee-4585-8e40-1ae6d926a56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÈÎÎñ¼ÇÂ¼">
+      <UniqueIdentifier>{39a68a63-36ff-4ad4-9a80-6288588a44ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÊÀ½çµØÍ¼">
+      <UniqueIdentifier>{7685cc7f-5a3a-4769-9bce-38d91aac6dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÐÂÎÅ´°¿Ú">
+      <UniqueIdentifier>{f07ad3bc-0a80-404c-bfc0-f01ccdf16416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\ÅÅÃû½çÃæ">
+      <UniqueIdentifier>{fea88e51-c63d-4dd3-ad05-1c18ef14e340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ">
+      <UniqueIdentifier>{9beeb465-b559-46bf-aebb-e32a101343e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÓ¦ÓÃ\´òÔìÎïÆ·½çÃæ">
+      <UniqueIdentifier>{168dd52e-f4f1-4272-b4ef-fdb4b0a40d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½çÃæ\½çÃæÉùÒô">
+      <UniqueIdentifier>{3d01a9db-95fd-4f32-9827-cc0ea5138e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÆäËü">
+      <UniqueIdentifier>{dc6393cd-d52e-4138-8123-72a3d1c13478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÍøÂçÁ¬½Ó">
+      <UniqueIdentifier>{0fe25153-6eae-4f93-9959-54a848b88614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="µÇÂ½">
+      <UniqueIdentifier>{81030612-2b1a-4cdc-83e1-1cc02dac5d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÎÄ×ÖÃüÁî¿ØÖÆ">
+      <UniqueIdentifier>{b5b3d3c8-9ea7-44c6-9cd2-6b4006e26b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{10c3e92b-9791-4501-8127-cb3e090008d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\debug">
+      <UniqueIdentifier>{3e3abd67-9746-4d46-836d-1c52460e5c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\release">
+      <UniqueIdentifier>{8e7fc068-b16a-431b-b00a-fe6985e01dcc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ui\Elem\AutoLocateWnd.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\ComWindow.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\MouseHover.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\PopupMenu.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\SpecialFuncs.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\TextPic.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\UiCursor.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\UiImage.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndButton.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndChessPanel.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndEdit.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndImage.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndImagePart.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndLabeledButton.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndList.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndList2.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndMessageListBox.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndMovingImage.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndObjContainer.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndPage.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndPureTextBtn.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\Wnds.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndScrollBar.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\elem\WndShadow.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndShowAnimate.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndText.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndToolBar.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndValueImage.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Elem\WndWindow.cpp">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiConnectInfo.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiLogin.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiLoginBg.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSelServer.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiContainer.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiFaceSelector.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiPlayerBar.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiStatus.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiManage.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\¹ÜÀí½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiOptions.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ñ¡Ïî½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiInit.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\³õÊ¼½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiGetMoney.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiItem.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSkills.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSkillTree.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\uicase\UiStoreBox.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiESCDlg.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiGetString.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiMsgSel.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiParadeItem.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSelPlayerNearby.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiNewPlayer.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½ÇÉ«Ñ¡Ôñ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSelNativePlace.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½ÇÉ«Ñ¡Ôñ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSelPlayer.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½ÇÉ«Ñ¡Ôñ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiChannelSubscibe.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiChatCentre.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiChatPhrase.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiChatStatus.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiInformation.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÌáÊ¾´°¿Ú</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiInformation2.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÌáÊ¾´°¿Ú</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiTeamManage.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\×é¶Ó</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiHeaderControlBar.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆÁÄ»¶¥ÐÐ¿ØÖÆÌõÓëÏûÏ¢½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\uicase\UiMsgCentrePad.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆÁÄ»¶¥ÐÐ¿ØÖÆÌõÓëÏûÏ¢½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiToolsControlBar.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆÁÄ»¶¥ÐÐ¿ØÖÆÌõÓëÏûÏ¢½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UIcase\UiShop.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½»Ò×</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiTrade.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½»Ò×</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiTradeConfirmWnd.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½»Ò×</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiGame.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÓÎÏ·ÊÀ½ç´°¿Ú</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSysMsgCentre.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÏµÍ³ÏûÏ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\uicase\UiMiniMap.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ð¡µØÍ¼</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiSelColor.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ñ¡ÑÕÉ«</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiNewPlayerStartMsg.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÐÂÊÖ½øÈë½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiPlayVideo.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\²¥·Åvideo</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiHelper.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ïÖú½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiHelper2.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ïÖú½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiReconnect.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\×Ô¶¯ÖØÁ¬</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiTaskDataFile.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÈÎÎñ¼ÇÂ¼</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiTaskNote.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÈÎÎñ¼ÇÂ¼</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiWorldMap.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÊÀ½çµØÍ¼</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiNewsMessage.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÐÂÎÅ´°¿Ú</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiStrengthRank.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÅÅÃû½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\uicase\UiPopupPasswordQuery.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\uicase\UiTongAssignBox.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\uicase\UiTongCreateSheet.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiCase\UiTongGetString.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\uicase\UiTongManager.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\uicase\UiTrembleItem.cpp">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\´òÔìÎïÆ·½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiSoundSetting.cpp">
+      <Filter>½çÃæ\½çÃæÉùÒô</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\GameSpaceChangedNotify.cpp">
+      <Filter>½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\ShortcutKey.cpp">
+      <Filter>½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiBase.cpp">
+      <Filter>½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UiShell.cpp">
+      <Filter>½çÃæ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\ChatFilter.cpp">
+      <Filter>ÆäËü</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\FilterTextLib.cpp">
+      <Filter>ÆäËü</Filter>
+    </ClCompile>
+    <ClCompile Include="S3Client.cpp">
+      <Filter>ÆäËü</Filter>
+    </ClCompile>
+    <ClCompile Include="NetConnect\NetConnectAgent.cpp">
+      <Filter>ÍøÂçÁ¬½Ó</Filter>
+    </ClCompile>
+    <ClCompile Include="Login\Login.cpp">
+      <Filter>µÇÂ½</Filter>
+    </ClCompile>
+    <ClCompile Include="TextCtrlCmd\TextCtrlCmd.cpp">
+      <Filter>ÎÄ×ÖÃüÁî¿ØÖÆ</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorCode.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ui\Elem\AutoLocateWnd.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\ComWindow.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\MouseHover.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\PopupMenu.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\SpecialFuncs.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\TextPic.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\UiCursor.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\UiImage.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndButton.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndChessPanel.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndEdit.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndGameSpace.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndImage.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndImagePart.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndLabeledButton.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndList.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndList2.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndMessage.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndMessageListBox.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndMovingImage.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndObjContainer.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndPage.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndPureTextBtn.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\Wnds.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndScrollBar.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\elem\WndShadow.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndShowAnimate.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndText.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndToolBar.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndValueImage.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Elem\WndWindow.h">
+      <Filter>½çÃæ\½çÃæ»ù´¡</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiConnectInfo.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiLogin.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiLoginBg.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSelServer.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÇÂ½½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiContainer.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiFaceSelector.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiPlayerBar.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiStatus.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ö÷½ÇÐÅÏ¢,×´Ì¬½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiManage.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\¹ÜÀí½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiOptions.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ñ¡Ïî½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiInit.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\³õÊ¼½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiGetMoney.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiItem.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSkills.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSkillTree.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\uicase\UiStoreBox.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\µÀ¾ß,×°±¸,¼¼ÄÜ½çÃæ¡¢´¢ÎïÏä</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiESCDlg.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiGetString.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiMsgSel.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiParadeItem.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSelPlayerNearby.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆäËû½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiNewPlayer.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½ÇÉ«Ñ¡Ôñ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSelNativePlace.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½ÇÉ«Ñ¡Ôñ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSelPlayer.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½ÇÉ«Ñ¡Ôñ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiChannelSubscibe.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiChatCentre.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiChatPhrase.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiChatStatus.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÁÄÌì</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiInformation.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÌáÊ¾´°¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiInformation2.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÌáÊ¾´°¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiTeamManage.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\×é¶Ó</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiHeaderControlBar.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆÁÄ»¶¥ÐÐ¿ØÖÆÌõÓëÏûÏ¢½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiMsgCentrePad.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆÁÄ»¶¥ÐÐ¿ØÖÆÌõÓëÏûÏ¢½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiToolsControlBar.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÆÁÄ»¶¥ÐÐ¿ØÖÆÌõÓëÏûÏ¢½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UIcase\UiShop.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½»Ò×</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiTrade.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½»Ò×</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiTradeConfirmWnd.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\½»Ò×</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiGame.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÓÎÏ·ÊÀ½ç´°¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSysMsgCentre.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÏµÍ³ÏûÏ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\uicase\UiMiniMap.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ð¡µØÍ¼</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiSelColor.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\Ñ¡ÑÕÉ«</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiNewPlayerStartMsg.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÐÂÊÖ½øÈë½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiPlayVideo.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\²¥·Åvideo</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiHelper.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ïÖú½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiHelper2.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ïÖú½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiReconnect.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\×Ô¶¯ÖØÁ¬</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiTaskDataFile.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÈÎÎñ¼ÇÂ¼</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiTaskNote.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÈÎÎñ¼ÇÂ¼</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiWorldMap.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÊÀ½çµØÍ¼</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiNewsMessage.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÐÂÎÅ´°¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiStrengthRank.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\ÅÅÃû½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\uicase\UiPopupPasswordQuery.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\uicase\UiTongAssignBox.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\uicase\UiTongCreateSheet.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiCase\UiTongGetString.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\uicase\UiTongManager.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\°ï»á½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\uicase\UiTrembleItem.h">
+      <Filter>½çÃæ\½çÃæÓ¦ÓÃ\´òÔìÎïÆ·½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiSoundSetting.h">
+      <Filter>½çÃæ\½çÃæÉùÒô</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\ShortcutKey.h">
+      <Filter>½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiBase.h">
+      <Filter>½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UiShell.h">
+      <Filter>½çÃæ</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\ChatFilter.h">
+      <Filter>ÆäËü</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\FilterTextLib.h">
+      <Filter>ÆäËü</Filter>
+    </ClInclude>
+    <ClInclude Include="S3Client.h">
+      <Filter>ÆäËü</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConnect\NetConnectAgent.h">
+      <Filter>ÍøÂçÁ¬½Ó</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConnect\NetMsgTargetObject.h">
+      <Filter>ÍøÂçÁ¬½Ó</Filter>
+    </ClInclude>
+    <ClInclude Include="Login\Login.h">
+      <Filter>µÇÂ½</Filter>
+    </ClInclude>
+    <ClInclude Include="Login\LoginDef.h">
+      <Filter>µÇÂ½</Filter>
+    </ClInclude>
+    <ClInclude Include="TextCtrlCmd\TextCtrlCmd.h">
+      <Filter>ÎÄ×ÖÃüÁî¿ØÖÆ</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorCode.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\Lib\debug\engine.lib">
+      <Filter>lib\debug</Filter>
+    </Library>
+    <Library Include="..\..\Lib\debug\CoreClient.lib">
+      <Filter>lib\debug</Filter>
+    </Library>
+    <Library Include="..\..\Lib\release\engine.lib">
+      <Filter>lib\release</Filter>
+    </Library>
+    <Library Include="..\..\Lib\release\CoreClient.lib">
+      <Filter>lib\release</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="test.ico" />
+  </ItemGroup>
+</Project>

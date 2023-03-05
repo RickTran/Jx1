@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: culib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\YANGXI~1\LOCALS~1\Temp\RSP37.tmp" with contents
+[
+/nologo /MDd /W3 /GR /GX /Z7 /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/culib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\Sword3\culib\TestCase.cpp"
+"E:\Sword3\culib\TestFailure.cpp"
+"E:\Sword3\culib\TestResult.cpp"
+"E:\Sword3\culib\TestSuite.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\YANGXI~1\LOCALS~1\Temp\RSP37.tmp" 
+Creating command line "link.exe -lib /nologo /out:"lib\culib.lib"  .\Debug\TestCase.obj .\Debug\TestFailure.obj .\Debug\TestResult.obj .\Debug\TestSuite.obj "
+<h3>Output Window</h3>
+Compiling...
+TestCase.cpp
+TestFailure.cpp
+TestResult.cpp
+TestSuite.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+culib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

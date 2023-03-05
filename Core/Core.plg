@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Core - Win32 Client Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\temp\RSP123.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lualibdll.lib Shlwapi.lib Winmm.lib /nologo /dll /incremental:no /pdb:"ClientDebug/CoreClient.pdb" /map:"ClientDebug/CoreClient.map" /debug /machine:I386 /out:"ClientDebug\CoreClient.dll" /implib:"ClientDebug/CoreClient.lib" /pdbtype:sept /libpath:"../../lib/" 
+.\ClientDebug\KPartnerSkill.obj
+.\ClientDebug\KPlayerPartner.obj
+.\ClientDebug\KThiefSkill.obj
+.\ClientDebug\KMissle.obj
+.\ClientDebug\KMissleRes.obj
+.\ClientDebug\KMissleSet.obj
+.\ClientDebug\KSkillList.obj
+.\ClientDebug\KSkillManager.obj
+.\ClientDebug\KSkills.obj
+.\ClientDebug\KSkillSpecial.obj
+.\ClientDebug\KFaction.obj
+.\ClientDebug\KNpc.obj
+.\ClientDebug\KNpcAI.obj
+.\ClientDebug\KNpcAttribModify.obj
+.\ClientDebug\KNpcDeathCalcExp.obj
+.\ClientDebug\KNpcFindPath.obj
+.\ClientDebug\KNpcGold.obj
+.\ClientDebug\KNpcRes.obj
+.\ClientDebug\KNpcResList.obj
+.\ClientDebug\KNpcResNode.obj
+.\ClientDebug\KNpcSet.obj
+.\ClientDebug\KNpcTemplate.obj
+.\ClientDebug\KPlayer.obj
+.\ClientDebug\KPlayerChat.obj
+.\ClientDebug\KPlayerDBFuns.obj
+.\ClientDebug\KPlayerFaction.obj
+.\ClientDebug\KPlayerMenuState.obj
+.\ClientDebug\KPlayerPK.obj
+.\ClientDebug\KPlayerSet.obj
+.\ClientDebug\KPlayerTask.obj
+.\ClientDebug\KPlayerTeam.obj
+.\ClientDebug\KPlayerTong.obj
+.\ClientDebug\KPlayerTrade.obj
+.\ClientDebug\KSprControl.obj
+.\ClientDebug\KBasPropTbl.obj
+.\ClientDebug\KBuySell.obj
+.\ClientDebug\KInventory.obj
+.\ClientDebug\KItem.obj
+.\ClientDebug\KItemChangeRes.obj
+.\ClientDebug\KItemGenerator.obj
+.\ClientDebug\KItemList.obj
+.\ClientDebug\KItemSet.obj
+.\ClientDebug\KObj.obj
+.\ClientDebug\KObjSet.obj
+.\ClientDebug\KViewItem.obj
+.\ClientDebug\KCore.obj
+.\ClientDebug\KSubWorld.obj
+.\ClientDebug\KSubWorldSet.obj
+.\ClientDebug\KWeatherMgr.obj
+.\ClientDebug\KRegion.obj
+.\ClientDebug\KWorldMsg.obj
+.\ClientDebug\KMath.obj
+.\ClientDebug\KProtocol.obj
+.\ClientDebug\KProtocolProcess.obj
+.\ClientDebug\ScriptFuns.obj
+.\ClientDebug\KScriptValueSet.obj
+.\ClientDebug\KSortScript.obj
+.\ClientDebug\CoreShell.obj
+.\ClientDebug\KIpotBranch.obj
+.\ClientDebug\KIpotLeaf.obj
+.\ClientDebug\KIpoTree.obj
+.\ClientDebug\KScenePlaceC.obj
+.\ClientDebug\KScenePlaceRegionC.obj
+.\ClientDebug\KWeather.obj
+.\ClientDebug\SceneMath.obj
+.\ClientDebug\ScenePlaceMapC.obj
+.\ClientDebug\CoreDrawGameObj.obj
+.\ClientDebug\ImgRef.obj
+.\ClientDebug\KMagicDesc.obj
+.\ClientDebug\KGMCommand.obj
+.\ClientDebug\KTaskFuns.obj
+.\ClientDebug\KOption.obj
+.\ClientDebug\KMapMusic.obj
+.\ClientDebug\KLadder.obj
+.\ClientDebug\stdafx.obj
+..\..\Lib\debug\engine.lib
+..\..\Lib\debug\common.lib
+.\Src\USBKey\EP1KDL20.LIB
+.\Src\USBKey\EpsForJoLib.lib
+]
+Creating command line "link.exe @D:\temp\RSP123.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ClientDebug/CoreClient.lib and object ClientDebug/CoreClient.exp
+Creating temporary file "D:\temp\RSP127.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug
+md ..\..\lib\debug
+copy ClientDebug\CoreClient.pdb ..\..\..\bin\client\CoreClient.pdb
+copy ClientDebug\CoreClient.map ..\..\..\bin\client\CoreClient.map
+copy ClientDebug\CoreClient.dll ..\..\..\bin\client\CoreClient.dll
+copy ClientDebug\CoreClient.pdb ..\..\..\bin\client\debug\CoreClient.pdb
+copy ClientDebug\CoreClient.map ..\..\..\bin\client\debug\CoreClient.map
+copy ClientDebug\CoreClient.dll ..\..\..\bin\client\debug\CoreClient.dll
+copy ClientDebug\CoreClient.lib ..\..\lib\debug\CoreClient.lib
+]
+Creating command line "D:\temp\RSP127.bat"
+
+子目录或文件 ..\..\..\bin\client\debug 已经存在。
+子目录或文件 ..\..\lib\debug 已经存在。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+CoreClient.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

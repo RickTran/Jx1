@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DLL Source Files">
+      <UniqueIdentifier>{dd895075-11d9-4241-a748-c6b09125208c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="DLL Header Files">
+      <UniqueIdentifier>{4c72298a-958e-4dc7-8eed-bd96a79c619b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ESClient">
+      <UniqueIdentifier>{33e0a0d9-7d85-433b-8f3d-22ae6673a772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESClient\Source Files">
+      <UniqueIdentifier>{866a8096-b27b-4f29-9813-9eec5f09643f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESClient\Header Files">
+      <UniqueIdentifier>{f4383bd9-3509-49ec-9fe8-a3600d80ea3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{d05355de-1253-4641-843f-d49315fb1a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{f52b9ea4-d805-4147-8a0c-8da28841ff94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\debug">
+      <UniqueIdentifier>{8fd38cce-ae8e-432c-87f6-c9d628801e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\release">
+      <UniqueIdentifier>{fa8993ac-5fc8-40df-ba0c-770bc83dd7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0ece861a-a1c6-43b9-a786-638c4a9571f3}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IClient.cpp">
+      <Filter>DLL Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainbow.cpp">
+      <Filter>DLL Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientStage.cpp">
+      <Filter>ESClient\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientStage.h">
+      <Filter>ESClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IClient.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\RainbowInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\Lib\debug\common.lib">
+      <Filter>Lib\debug</Filter>
+    </Library>
+    <Library Include="..\..\..\Lib\release\common.lib">
+      <Filter>Lib\release</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Rainbow.def">
+      <Filter>DLL Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

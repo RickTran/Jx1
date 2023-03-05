@@ -1,0 +1,487 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Intercessor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\temp\RSP130.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Common" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\..\lib" /I "..\..\..\Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Intercessor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\GamePlayer.cpp"
+"F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\Network.cpp"
+"F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\PlayerCreator.cpp"
+"F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\PlayerManager.cpp"
+]
+Creating command line "cl.exe @D:\temp\RSP130.tmp" 
+Creating temporary file "D:\temp\RSP131.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Intercessor.pdb" /debug /machine:I386 /out:"Debug/Intercessor.exe" /pdbtype:sept 
+.\Debug\GamePlayer.obj
+.\Debug\GameServer.obj
+.\Debug\Intercessor.obj
+.\Debug\Network.obj
+.\Debug\PlayerCreator.obj
+.\Debug\PlayerManager.obj
+.\Debug\StdAfx.obj
+.\Debug\Intercessor.res
+]
+Creating command line "link.exe @D:\temp\RSP131.tmp"
+<h3>Output Window</h3>
+Compiling...
+GamePlayer.cpp
+f:\program files\microsoft visual studio\vc98\include\winsock.h(566) : warning C4005: 'WSAEINTR' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14092) : see previous definition of 'WSAEINTR'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(567) : warning C4005: 'WSAEBADF' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14101) : see previous definition of 'WSAEBADF'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(568) : warning C4005: 'WSAEACCES' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14110) : see previous definition of 'WSAEACCES'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(569) : warning C4005: 'WSAEFAULT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14119) : see previous definition of 'WSAEFAULT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(570) : warning C4005: 'WSAEINVAL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14128) : see previous definition of 'WSAEINVAL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(571) : warning C4005: 'WSAEMFILE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14137) : see previous definition of 'WSAEMFILE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(576) : warning C4005: 'WSAEWOULDBLOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14146) : see previous definition of 'WSAEWOULDBLOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(577) : warning C4005: 'WSAEINPROGRESS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14155) : see previous definition of 'WSAEINPROGRESS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(578) : warning C4005: 'WSAEALREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14164) : see previous definition of 'WSAEALREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(579) : warning C4005: 'WSAENOTSOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14173) : see previous definition of 'WSAENOTSOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(580) : warning C4005: 'WSAEDESTADDRREQ' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14182) : see previous definition of 'WSAEDESTADDRREQ'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(581) : warning C4005: 'WSAEMSGSIZE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14191) : see previous definition of 'WSAEMSGSIZE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(582) : warning C4005: 'WSAEPROTOTYPE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14200) : see previous definition of 'WSAEPROTOTYPE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(583) : warning C4005: 'WSAENOPROTOOPT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14209) : see previous definition of 'WSAENOPROTOOPT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(584) : warning C4005: 'WSAEPROTONOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14218) : see previous definition of 'WSAEPROTONOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(585) : warning C4005: 'WSAESOCKTNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14227) : see previous definition of 'WSAESOCKTNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(586) : warning C4005: 'WSAEOPNOTSUPP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14236) : see previous definition of 'WSAEOPNOTSUPP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(587) : warning C4005: 'WSAEPFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14245) : see previous definition of 'WSAEPFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(588) : warning C4005: 'WSAEAFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14254) : see previous definition of 'WSAEAFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(589) : warning C4005: 'WSAEADDRINUSE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14263) : see previous definition of 'WSAEADDRINUSE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(590) : warning C4005: 'WSAEADDRNOTAVAIL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14272) : see previous definition of 'WSAEADDRNOTAVAIL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(591) : warning C4005: 'WSAENETDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14281) : see previous definition of 'WSAENETDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(592) : warning C4005: 'WSAENETUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14290) : see previous definition of 'WSAENETUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(593) : warning C4005: 'WSAENETRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14299) : see previous definition of 'WSAENETRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(594) : warning C4005: 'WSAECONNABORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14308) : see previous definition of 'WSAECONNABORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(595) : warning C4005: 'WSAECONNRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14317) : see previous definition of 'WSAECONNRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(596) : warning C4005: 'WSAENOBUFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14326) : see previous definition of 'WSAENOBUFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(597) : warning C4005: 'WSAEISCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14335) : see previous definition of 'WSAEISCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(598) : warning C4005: 'WSAENOTCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14344) : see previous definition of 'WSAENOTCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(599) : warning C4005: 'WSAESHUTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14353) : see previous definition of 'WSAESHUTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(600) : warning C4005: 'WSAETOOMANYREFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14362) : see previous definition of 'WSAETOOMANYREFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(601) : warning C4005: 'WSAETIMEDOUT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14371) : see previous definition of 'WSAETIMEDOUT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(602) : warning C4005: 'WSAECONNREFUSED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14380) : see previous definition of 'WSAECONNREFUSED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(603) : warning C4005: 'WSAELOOP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14389) : see previous definition of 'WSAELOOP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(604) : warning C4005: 'WSAENAMETOOLONG' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14398) : see previous definition of 'WSAENAMETOOLONG'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(605) : warning C4005: 'WSAEHOSTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14407) : see previous definition of 'WSAEHOSTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(606) : warning C4005: 'WSAEHOSTUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14416) : see previous definition of 'WSAEHOSTUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(607) : warning C4005: 'WSAENOTEMPTY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14425) : see previous definition of 'WSAENOTEMPTY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(608) : warning C4005: 'WSAEPROCLIM' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14434) : see previous definition of 'WSAEPROCLIM'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(609) : warning C4005: 'WSAEUSERS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14443) : see previous definition of 'WSAEUSERS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(610) : warning C4005: 'WSAEDQUOT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14452) : see previous definition of 'WSAEDQUOT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(611) : warning C4005: 'WSAESTALE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14461) : see previous definition of 'WSAESTALE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(612) : warning C4005: 'WSAEREMOTE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14470) : see previous definition of 'WSAEREMOTE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(614) : warning C4005: 'WSAEDISCON' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14506) : see previous definition of 'WSAEDISCON'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(619) : warning C4005: 'WSASYSNOTREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14479) : see previous definition of 'WSASYSNOTREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(620) : warning C4005: 'WSAVERNOTSUPPORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14488) : see previous definition of 'WSAVERNOTSUPPORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(621) : warning C4005: 'WSANOTINITIALISED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14497) : see previous definition of 'WSANOTINITIALISED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(637) : warning C4005: 'WSAHOST_NOT_FOUND' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14614) : see previous definition of 'WSAHOST_NOT_FOUND'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(641) : warning C4005: 'WSATRY_AGAIN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14623) : see previous definition of 'WSATRY_AGAIN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(645) : warning C4005: 'WSANO_RECOVERY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14632) : see previous definition of 'WSANO_RECOVERY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(649) : warning C4005: 'WSANO_DATA' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14641) : see previous definition of 'WSANO_DATA'
+f:\program files\microsoft visual studio\vc98\include\objbase.h(434) : error C2084: function 'int __cdecl IsEqualGUID(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(457) : error C2084: function 'int __cdecl operator ==(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(467) : error C2084: function 'int __cdecl operator !=(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2264: '==' : error in function definition or declaration; function not called
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2088: '==' : illegal for struct
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5853) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5890) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\GamePlayer.cpp(10) : fatal error C1083: Cannot open include file: '..\..\core\Src\KProtocol.h': No such file or directory
+Network.cpp
+f:\program files\microsoft visual studio\vc98\include\objbase.h(434) : error C2084: function 'int __cdecl IsEqualGUID(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(457) : error C2084: function 'int __cdecl operator ==(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(467) : error C2084: function 'int __cdecl operator !=(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2264: '==' : error in function definition or declaration; function not called
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2088: '==' : illegal for struct
+f:\program files\microsoft visual studio\vc98\include\winsock.h(566) : warning C4005: 'WSAEINTR' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14092) : see previous definition of 'WSAEINTR'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(567) : warning C4005: 'WSAEBADF' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14101) : see previous definition of 'WSAEBADF'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(568) : warning C4005: 'WSAEACCES' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14110) : see previous definition of 'WSAEACCES'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(569) : warning C4005: 'WSAEFAULT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14119) : see previous definition of 'WSAEFAULT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(570) : warning C4005: 'WSAEINVAL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14128) : see previous definition of 'WSAEINVAL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(571) : warning C4005: 'WSAEMFILE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14137) : see previous definition of 'WSAEMFILE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(576) : warning C4005: 'WSAEWOULDBLOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14146) : see previous definition of 'WSAEWOULDBLOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(577) : warning C4005: 'WSAEINPROGRESS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14155) : see previous definition of 'WSAEINPROGRESS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(578) : warning C4005: 'WSAEALREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14164) : see previous definition of 'WSAEALREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(579) : warning C4005: 'WSAENOTSOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14173) : see previous definition of 'WSAENOTSOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(580) : warning C4005: 'WSAEDESTADDRREQ' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14182) : see previous definition of 'WSAEDESTADDRREQ'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(581) : warning C4005: 'WSAEMSGSIZE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14191) : see previous definition of 'WSAEMSGSIZE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(582) : warning C4005: 'WSAEPROTOTYPE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14200) : see previous definition of 'WSAEPROTOTYPE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(583) : warning C4005: 'WSAENOPROTOOPT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14209) : see previous definition of 'WSAENOPROTOOPT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(584) : warning C4005: 'WSAEPROTONOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14218) : see previous definition of 'WSAEPROTONOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(585) : warning C4005: 'WSAESOCKTNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14227) : see previous definition of 'WSAESOCKTNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(586) : warning C4005: 'WSAEOPNOTSUPP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14236) : see previous definition of 'WSAEOPNOTSUPP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(587) : warning C4005: 'WSAEPFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14245) : see previous definition of 'WSAEPFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(588) : warning C4005: 'WSAEAFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14254) : see previous definition of 'WSAEAFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(589) : warning C4005: 'WSAEADDRINUSE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14263) : see previous definition of 'WSAEADDRINUSE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(590) : warning C4005: 'WSAEADDRNOTAVAIL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14272) : see previous definition of 'WSAEADDRNOTAVAIL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(591) : warning C4005: 'WSAENETDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14281) : see previous definition of 'WSAENETDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(592) : warning C4005: 'WSAENETUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14290) : see previous definition of 'WSAENETUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(593) : warning C4005: 'WSAENETRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14299) : see previous definition of 'WSAENETRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(594) : warning C4005: 'WSAECONNABORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14308) : see previous definition of 'WSAECONNABORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(595) : warning C4005: 'WSAECONNRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14317) : see previous definition of 'WSAECONNRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(596) : warning C4005: 'WSAENOBUFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14326) : see previous definition of 'WSAENOBUFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(597) : warning C4005: 'WSAEISCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14335) : see previous definition of 'WSAEISCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(598) : warning C4005: 'WSAENOTCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14344) : see previous definition of 'WSAENOTCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(599) : warning C4005: 'WSAESHUTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14353) : see previous definition of 'WSAESHUTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(600) : warning C4005: 'WSAETOOMANYREFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14362) : see previous definition of 'WSAETOOMANYREFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(601) : warning C4005: 'WSAETIMEDOUT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14371) : see previous definition of 'WSAETIMEDOUT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(602) : warning C4005: 'WSAECONNREFUSED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14380) : see previous definition of 'WSAECONNREFUSED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(603) : warning C4005: 'WSAELOOP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14389) : see previous definition of 'WSAELOOP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(604) : warning C4005: 'WSAENAMETOOLONG' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14398) : see previous definition of 'WSAENAMETOOLONG'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(605) : warning C4005: 'WSAEHOSTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14407) : see previous definition of 'WSAEHOSTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(606) : warning C4005: 'WSAEHOSTUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14416) : see previous definition of 'WSAEHOSTUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(607) : warning C4005: 'WSAENOTEMPTY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14425) : see previous definition of 'WSAENOTEMPTY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(608) : warning C4005: 'WSAEPROCLIM' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14434) : see previous definition of 'WSAEPROCLIM'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(609) : warning C4005: 'WSAEUSERS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14443) : see previous definition of 'WSAEUSERS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(610) : warning C4005: 'WSAEDQUOT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14452) : see previous definition of 'WSAEDQUOT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(611) : warning C4005: 'WSAESTALE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14461) : see previous definition of 'WSAESTALE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(612) : warning C4005: 'WSAEREMOTE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14470) : see previous definition of 'WSAEREMOTE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(614) : warning C4005: 'WSAEDISCON' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14506) : see previous definition of 'WSAEDISCON'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(619) : warning C4005: 'WSASYSNOTREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14479) : see previous definition of 'WSASYSNOTREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(620) : warning C4005: 'WSAVERNOTSUPPORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14488) : see previous definition of 'WSAVERNOTSUPPORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(621) : warning C4005: 'WSANOTINITIALISED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14497) : see previous definition of 'WSANOTINITIALISED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(637) : warning C4005: 'WSAHOST_NOT_FOUND' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14614) : see previous definition of 'WSAHOST_NOT_FOUND'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(641) : warning C4005: 'WSATRY_AGAIN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14623) : see previous definition of 'WSATRY_AGAIN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(645) : warning C4005: 'WSANO_RECOVERY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14632) : see previous definition of 'WSANO_RECOVERY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(649) : warning C4005: 'WSANO_DATA' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14641) : see previous definition of 'WSANO_DATA'
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5853) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5890) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\Network.cpp(109) : error C2660: 'SetEnvironment' : function does not take 2 parameters
+PlayerCreator.cpp
+f:\program files\microsoft visual studio\vc98\include\winsock.h(566) : warning C4005: 'WSAEINTR' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14092) : see previous definition of 'WSAEINTR'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(567) : warning C4005: 'WSAEBADF' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14101) : see previous definition of 'WSAEBADF'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(568) : warning C4005: 'WSAEACCES' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14110) : see previous definition of 'WSAEACCES'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(569) : warning C4005: 'WSAEFAULT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14119) : see previous definition of 'WSAEFAULT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(570) : warning C4005: 'WSAEINVAL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14128) : see previous definition of 'WSAEINVAL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(571) : warning C4005: 'WSAEMFILE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14137) : see previous definition of 'WSAEMFILE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(576) : warning C4005: 'WSAEWOULDBLOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14146) : see previous definition of 'WSAEWOULDBLOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(577) : warning C4005: 'WSAEINPROGRESS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14155) : see previous definition of 'WSAEINPROGRESS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(578) : warning C4005: 'WSAEALREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14164) : see previous definition of 'WSAEALREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(579) : warning C4005: 'WSAENOTSOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14173) : see previous definition of 'WSAENOTSOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(580) : warning C4005: 'WSAEDESTADDRREQ' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14182) : see previous definition of 'WSAEDESTADDRREQ'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(581) : warning C4005: 'WSAEMSGSIZE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14191) : see previous definition of 'WSAEMSGSIZE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(582) : warning C4005: 'WSAEPROTOTYPE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14200) : see previous definition of 'WSAEPROTOTYPE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(583) : warning C4005: 'WSAENOPROTOOPT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14209) : see previous definition of 'WSAENOPROTOOPT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(584) : warning C4005: 'WSAEPROTONOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14218) : see previous definition of 'WSAEPROTONOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(585) : warning C4005: 'WSAESOCKTNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14227) : see previous definition of 'WSAESOCKTNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(586) : warning C4005: 'WSAEOPNOTSUPP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14236) : see previous definition of 'WSAEOPNOTSUPP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(587) : warning C4005: 'WSAEPFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14245) : see previous definition of 'WSAEPFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(588) : warning C4005: 'WSAEAFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14254) : see previous definition of 'WSAEAFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(589) : warning C4005: 'WSAEADDRINUSE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14263) : see previous definition of 'WSAEADDRINUSE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(590) : warning C4005: 'WSAEADDRNOTAVAIL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14272) : see previous definition of 'WSAEADDRNOTAVAIL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(591) : warning C4005: 'WSAENETDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14281) : see previous definition of 'WSAENETDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(592) : warning C4005: 'WSAENETUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14290) : see previous definition of 'WSAENETUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(593) : warning C4005: 'WSAENETRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14299) : see previous definition of 'WSAENETRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(594) : warning C4005: 'WSAECONNABORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14308) : see previous definition of 'WSAECONNABORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(595) : warning C4005: 'WSAECONNRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14317) : see previous definition of 'WSAECONNRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(596) : warning C4005: 'WSAENOBUFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14326) : see previous definition of 'WSAENOBUFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(597) : warning C4005: 'WSAEISCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14335) : see previous definition of 'WSAEISCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(598) : warning C4005: 'WSAENOTCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14344) : see previous definition of 'WSAENOTCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(599) : warning C4005: 'WSAESHUTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14353) : see previous definition of 'WSAESHUTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(600) : warning C4005: 'WSAETOOMANYREFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14362) : see previous definition of 'WSAETOOMANYREFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(601) : warning C4005: 'WSAETIMEDOUT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14371) : see previous definition of 'WSAETIMEDOUT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(602) : warning C4005: 'WSAECONNREFUSED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14380) : see previous definition of 'WSAECONNREFUSED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(603) : warning C4005: 'WSAELOOP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14389) : see previous definition of 'WSAELOOP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(604) : warning C4005: 'WSAENAMETOOLONG' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14398) : see previous definition of 'WSAENAMETOOLONG'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(605) : warning C4005: 'WSAEHOSTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14407) : see previous definition of 'WSAEHOSTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(606) : warning C4005: 'WSAEHOSTUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14416) : see previous definition of 'WSAEHOSTUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(607) : warning C4005: 'WSAENOTEMPTY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14425) : see previous definition of 'WSAENOTEMPTY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(608) : warning C4005: 'WSAEPROCLIM' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14434) : see previous definition of 'WSAEPROCLIM'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(609) : warning C4005: 'WSAEUSERS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14443) : see previous definition of 'WSAEUSERS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(610) : warning C4005: 'WSAEDQUOT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14452) : see previous definition of 'WSAEDQUOT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(611) : warning C4005: 'WSAESTALE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14461) : see previous definition of 'WSAESTALE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(612) : warning C4005: 'WSAEREMOTE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14470) : see previous definition of 'WSAEREMOTE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(614) : warning C4005: 'WSAEDISCON' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14506) : see previous definition of 'WSAEDISCON'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(619) : warning C4005: 'WSASYSNOTREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14479) : see previous definition of 'WSASYSNOTREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(620) : warning C4005: 'WSAVERNOTSUPPORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14488) : see previous definition of 'WSAVERNOTSUPPORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(621) : warning C4005: 'WSANOTINITIALISED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14497) : see previous definition of 'WSANOTINITIALISED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(637) : warning C4005: 'WSAHOST_NOT_FOUND' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14614) : see previous definition of 'WSAHOST_NOT_FOUND'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(641) : warning C4005: 'WSATRY_AGAIN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14623) : see previous definition of 'WSATRY_AGAIN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(645) : warning C4005: 'WSANO_RECOVERY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14632) : see previous definition of 'WSANO_RECOVERY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(649) : warning C4005: 'WSANO_DATA' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14641) : see previous definition of 'WSANO_DATA'
+f:\program files\microsoft visual studio\vc98\include\objbase.h(434) : error C2084: function 'int __cdecl IsEqualGUID(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(457) : error C2084: function 'int __cdecl operator ==(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(467) : error C2084: function 'int __cdecl operator !=(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2264: '==' : error in function definition or declaration; function not called
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2088: '==' : illegal for struct
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5853) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5890) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\PlayerCreator.cpp(172) : error C2039: 'cusercode' : is not a member of 'TDBItemData'
+        f:\downloads\swordonline\lib\s3dbinterface.h(137) : see declaration of 'TDBItemData'
+PlayerManager.cpp
+f:\program files\microsoft visual studio\vc98\include\winsock.h(566) : warning C4005: 'WSAEINTR' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14092) : see previous definition of 'WSAEINTR'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(567) : warning C4005: 'WSAEBADF' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14101) : see previous definition of 'WSAEBADF'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(568) : warning C4005: 'WSAEACCES' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14110) : see previous definition of 'WSAEACCES'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(569) : warning C4005: 'WSAEFAULT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14119) : see previous definition of 'WSAEFAULT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(570) : warning C4005: 'WSAEINVAL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14128) : see previous definition of 'WSAEINVAL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(571) : warning C4005: 'WSAEMFILE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14137) : see previous definition of 'WSAEMFILE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(576) : warning C4005: 'WSAEWOULDBLOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14146) : see previous definition of 'WSAEWOULDBLOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(577) : warning C4005: 'WSAEINPROGRESS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14155) : see previous definition of 'WSAEINPROGRESS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(578) : warning C4005: 'WSAEALREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14164) : see previous definition of 'WSAEALREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(579) : warning C4005: 'WSAENOTSOCK' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14173) : see previous definition of 'WSAENOTSOCK'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(580) : warning C4005: 'WSAEDESTADDRREQ' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14182) : see previous definition of 'WSAEDESTADDRREQ'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(581) : warning C4005: 'WSAEMSGSIZE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14191) : see previous definition of 'WSAEMSGSIZE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(582) : warning C4005: 'WSAEPROTOTYPE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14200) : see previous definition of 'WSAEPROTOTYPE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(583) : warning C4005: 'WSAENOPROTOOPT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14209) : see previous definition of 'WSAENOPROTOOPT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(584) : warning C4005: 'WSAEPROTONOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14218) : see previous definition of 'WSAEPROTONOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(585) : warning C4005: 'WSAESOCKTNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14227) : see previous definition of 'WSAESOCKTNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(586) : warning C4005: 'WSAEOPNOTSUPP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14236) : see previous definition of 'WSAEOPNOTSUPP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(587) : warning C4005: 'WSAEPFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14245) : see previous definition of 'WSAEPFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(588) : warning C4005: 'WSAEAFNOSUPPORT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14254) : see previous definition of 'WSAEAFNOSUPPORT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(589) : warning C4005: 'WSAEADDRINUSE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14263) : see previous definition of 'WSAEADDRINUSE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(590) : warning C4005: 'WSAEADDRNOTAVAIL' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14272) : see previous definition of 'WSAEADDRNOTAVAIL'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(591) : warning C4005: 'WSAENETDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14281) : see previous definition of 'WSAENETDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(592) : warning C4005: 'WSAENETUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14290) : see previous definition of 'WSAENETUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(593) : warning C4005: 'WSAENETRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14299) : see previous definition of 'WSAENETRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(594) : warning C4005: 'WSAECONNABORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14308) : see previous definition of 'WSAECONNABORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(595) : warning C4005: 'WSAECONNRESET' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14317) : see previous definition of 'WSAECONNRESET'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(596) : warning C4005: 'WSAENOBUFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14326) : see previous definition of 'WSAENOBUFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(597) : warning C4005: 'WSAEISCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14335) : see previous definition of 'WSAEISCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(598) : warning C4005: 'WSAENOTCONN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14344) : see previous definition of 'WSAENOTCONN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(599) : warning C4005: 'WSAESHUTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14353) : see previous definition of 'WSAESHUTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(600) : warning C4005: 'WSAETOOMANYREFS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14362) : see previous definition of 'WSAETOOMANYREFS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(601) : warning C4005: 'WSAETIMEDOUT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14371) : see previous definition of 'WSAETIMEDOUT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(602) : warning C4005: 'WSAECONNREFUSED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14380) : see previous definition of 'WSAECONNREFUSED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(603) : warning C4005: 'WSAELOOP' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14389) : see previous definition of 'WSAELOOP'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(604) : warning C4005: 'WSAENAMETOOLONG' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14398) : see previous definition of 'WSAENAMETOOLONG'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(605) : warning C4005: 'WSAEHOSTDOWN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14407) : see previous definition of 'WSAEHOSTDOWN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(606) : warning C4005: 'WSAEHOSTUNREACH' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14416) : see previous definition of 'WSAEHOSTUNREACH'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(607) : warning C4005: 'WSAENOTEMPTY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14425) : see previous definition of 'WSAENOTEMPTY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(608) : warning C4005: 'WSAEPROCLIM' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14434) : see previous definition of 'WSAEPROCLIM'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(609) : warning C4005: 'WSAEUSERS' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14443) : see previous definition of 'WSAEUSERS'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(610) : warning C4005: 'WSAEDQUOT' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14452) : see previous definition of 'WSAEDQUOT'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(611) : warning C4005: 'WSAESTALE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14461) : see previous definition of 'WSAESTALE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(612) : warning C4005: 'WSAEREMOTE' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14470) : see previous definition of 'WSAEREMOTE'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(614) : warning C4005: 'WSAEDISCON' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14506) : see previous definition of 'WSAEDISCON'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(619) : warning C4005: 'WSASYSNOTREADY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14479) : see previous definition of 'WSASYSNOTREADY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(620) : warning C4005: 'WSAVERNOTSUPPORTED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14488) : see previous definition of 'WSAVERNOTSUPPORTED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(621) : warning C4005: 'WSANOTINITIALISED' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14497) : see previous definition of 'WSANOTINITIALISED'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(637) : warning C4005: 'WSAHOST_NOT_FOUND' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14614) : see previous definition of 'WSAHOST_NOT_FOUND'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(641) : warning C4005: 'WSATRY_AGAIN' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14623) : see previous definition of 'WSATRY_AGAIN'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(645) : warning C4005: 'WSANO_RECOVERY' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14632) : see previous definition of 'WSANO_RECOVERY'
+f:\program files\microsoft visual studio\vc98\include\winsock.h(649) : warning C4005: 'WSANO_DATA' : macro redefinition
+        f:\downloads\swordonline\sdk\platformsdk\include\winerror.h(14641) : see previous definition of 'WSANO_DATA'
+f:\program files\microsoft visual studio\vc98\include\objbase.h(434) : error C2084: function 'int __cdecl IsEqualGUID(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(457) : error C2084: function 'int __cdecl operator ==(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(467) : error C2084: function 'int __cdecl operator !=(const struct _GUID &,const struct _GUID &)' already has a body
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2264: '==' : error in function definition or declaration; function not called
+f:\program files\microsoft visual studio\vc98\include\objbase.h(468) : error C2088: '==' : illegal for struct
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5853) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+f:\program files\microsoft visual studio\vc98\atl\include\atlbase.h(5890) : error C2171: '!' : illegal on operands of type 'int (const struct _GUID &,const struct _GUID &)'
+F:\DownLoads\SwordOnline\Sources\MultiServer\Intercessor\PlayerManager.cpp(10) : fatal error C1083: Cannot open include file: '..\..\core\Src\KProtocol.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Intercessor.exe - 32 error(s), 204 warning(s)
+</pre>
+</body>
+</html>

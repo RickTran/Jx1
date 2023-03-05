@@ -1,0 +1,187 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FilterText_StaticLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+FilterText_StaticLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Common - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Common.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Server Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+CoreServer.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Client Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+CoreClient.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Engine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Engine.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: FilterText - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+FilterText.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExpandPackage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ExpandPackage.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Represent2.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Represent3.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Client - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Game.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Sword3PaySys - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Sword3PaySys.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3RelayServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+S3RelayServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Bishop - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Bishop.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GameServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+GameServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Goddess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Goddess.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Heaven - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Heaven.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Rainbow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Rainbow.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Relay - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+S3Relay.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: LuaLibDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+LuaLibDll.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExpandPackageStaticLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ExpandPackageStaticLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

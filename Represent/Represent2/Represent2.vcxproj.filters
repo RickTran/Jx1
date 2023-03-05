@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Í¼×ÊÔ´¹ÜÀí">
+      <UniqueIdentifier>{4ebc6ca0-11bb-4778-90ae-d0f06a643e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="¶ÔÍâ½Ó¿ÚÊµÏÖ">
+      <UniqueIdentifier>{edbe9434-9cc4-4536-8b86-78e3f1f41255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{f6df009a-bcc7-43b2-962c-995ed0825a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Í¼ÐÎ²Ù×÷">
+      <UniqueIdentifier>{5e57cdac-4b2e-4c27-a1e5-b94e0a7f2447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{413fb8cb-8137-4bc6-beca-018769b11f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Debug">
+      <UniqueIdentifier>{d5282bd9-7585-4514-8205-b14ecfa7235c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Release">
+      <UniqueIdentifier>{66c37c08-7dd9-4997-8a8c-23babab832ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KImageStore2.cpp">
+      <Filter>Í¼×ÊÔ´¹ÜÀí</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iRepresent\RepresentUtility.cpp">
+      <Filter>Í¼×ÊÔ´¹ÜÀí</Filter>
+    </ClCompile>
+    <ClCompile Include="KRepresentShell2.cpp">
+      <Filter>¶ÔÍâ½Ó¿ÚÊµÏÖ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iRepresent\Font\KFont2.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iRepresent\Font\KFontData.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iRepresent\Text\TextProcess.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iRepresent\Image\ImageOperation.cpp">
+      <Filter>Í¼ÐÎ²Ù×÷</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KImageStore2.h">
+      <Filter>Í¼×ÊÔ´¹ÜÀí</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iRepresent\iRepresentShell.h">
+      <Filter>¶ÔÍâ½Ó¿ÚÊµÏÖ</Filter>
+    </ClInclude>
+    <ClInclude Include="KRepresentShell2.h">
+      <Filter>¶ÔÍâ½Ó¿ÚÊµÏÖ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iRepresent\Text\TextProcess.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iRepresent\Image\ImageOperation.h">
+      <Filter>Í¼ÐÎ²Ù×÷</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iRepresent\RepresentUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\Lib\debug\engine.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="..\..\..\Lib\release\engine.lib">
+      <Filter>Lib\Release</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

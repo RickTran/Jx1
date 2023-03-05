@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IOCPServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\chenpeng\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/IOCPServer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\CriticalSection.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\Event.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\Exception.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\IOBuffer.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\IOCompletionPort.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\ManualResetEvent.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\NodeList.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\Socket.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\SocketServer.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\Thread.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\UsesWinsock.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\Utils.cpp"
+"D:\swrod3\SwordOnline\Sources\Network\IOCPServer\Win32Exception.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\chenpeng\LOCALS~1\Temp\RSP53.tmp" 
+Creating temporary file "C:\DOCUME~1\chenpeng\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /out:"Debug\IOCPServer.lib" 
+.\Debug\CriticalSection.obj
+.\Debug\Event.obj
+.\Debug\Exception.obj
+.\Debug\IOBuffer.obj
+.\Debug\IOCompletionPort.obj
+.\Debug\ManualResetEvent.obj
+.\Debug\NodeList.obj
+.\Debug\Socket.obj
+.\Debug\SocketServer.obj
+.\Debug\Thread.obj
+.\Debug\UsesWinsock.obj
+.\Debug\Utils.obj
+.\Debug\Win32Exception.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\chenpeng\LOCALS~1\Temp\RSP54.tmp"
+<h3>Output Window</h3>
+Compiling...
+CriticalSection.cpp
+Event.cpp
+Exception.cpp
+IOBuffer.cpp
+IOCompletionPort.cpp
+ManualResetEvent.cpp
+NodeList.cpp
+Socket.cpp
+SocketServer.cpp
+NOTE : --------------------OnlineGameLib [Server] : Announcement--------------------
+NOTE : Developing a truly scalable Winsock Server using IO Completion Ports(IOCP)
+NOTE : But this module depend on the microsoft platform
+NOTE : Requirements :
+NOTE :    * Windows NT/2000/XP: Included in Windows NT 4.0 and later.
+NOTE :    * Windows 95/98/Me: Unsupported.
+NOTE :
+NOTE : liupeng xishanju.zhuhai.china 2003.1
+NOTE : -----------------------------------------------------------------------------
+Thread.cpp
+UsesWinsock.cpp
+Utils.cpp
+Win32Exception.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\chenpeng\LOCALS~1\Temp\RSP55.bat" with contents
+[
+@echo off
+copy debug\iocpserver.lib ..\..\..\lib\iocpserver.lib
+]
+Creating command line "C:\DOCUME~1\chenpeng\LOCALS~1\Temp\RSP55.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+IOCPServer.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

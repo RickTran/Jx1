@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: S3RelayServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Sword3RelaySys.res" /d "NDEBUG" "F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\Sword3RelaySys.rc"" 
+Creating temporary file "D:\temp\RSP90.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/S3RelayServer.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\GlobalFun.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\KThread.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\LogFile.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\main.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PAccount.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDB_MSSQLServer_Connection.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConnectionPool.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConVBC.cpp"
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBSocketPool.cpp"
+]
+Creating command line "cl.exe @D:\temp\RSP90.tmp" 
+Creating temporary file "D:\temp\RSP91.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/S3RelayServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\temp\RSP91.tmp" 
+Creating temporary file "D:\temp\RSP92.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/S3RelayServer.pdb" /map:"Release/S3RelayServer.map" /debug /machine:I386 /out:"Release/S3RelayServer.exe" 
+.\Release\GlobalFun.obj
+.\Release\KThread.obj
+.\Release\LogFile.obj
+.\Release\main.obj
+.\Release\S3P_MSSQLServer_Result.obj
+.\Release\S3PAccount.obj
+.\Release\S3PDB_MSSQLServer_Connection.obj
+.\Release\S3PDBConnectionPool.obj
+.\Release\S3PDBConVBC.obj
+.\Release\S3PDBSocketPool.obj
+.\Release\S3PResultVBC.obj
+.\Release\StdAfx.obj
+.\Release\Sword3RelaySys.res
+]
+Creating command line "link.exe @D:\temp\RSP92.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GlobalFun.cpp
+F:\DownLoads\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\GlobalFun.cpp(475) : warning C4018: '<=' : signed/unsigned mismatch
+KThread.cpp
+LogFile.cpp
+main.cpp
+S3PAccount.cpp
+S3PDB_MSSQLServer_Connection.cpp
+S3PDBConnectionPool.cpp
+S3PDBConVBC.cpp
+S3PDBSocketPool.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+Creating temporary file "D:\temp\RSP94.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\client\release\
+copy release\S3RelayServer.exe ..\..\..\..\bin\Client\S3RelayServer.exe
+copy release\S3RelayServer.exe ..\..\..\..\bin\Client\release\S3RelayServer.exe
+]
+Creating command line "D:\temp\RSP94.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+S3RelayServer.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

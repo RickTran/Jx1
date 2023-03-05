@@ -1,0 +1,101 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Represent3, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\RSP000019.rsp" with contents
+[
+/Od /I "..\..\engine\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT3_EXPORTS" /FD /EHsc /RTC1 /MDd /GS /Yc"precompile.h" /Fp".\Debug/Represent3.pch" /Fo".\Debug/" /Fd".\Debug/" /FR".\Debug/" /W3 /c /Zi
+.\precompile.cpp
+]
+Creating command line "cl.exe @k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\RSP000019.rsp /nologo"
+Creating temporary file "k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\RSP00001A.rsp" with contents
+[
+/Od /I "..\..\engine\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT3_EXPORTS" /FD /EHsc /RTC1 /MDd /GS /Yu"precompile.h" /Fp".\Debug/Represent3.pch" /Fo".\Debug/" /Fd".\Debug/" /FR".\Debug/" /W3 /c /Zi
+.\TextureResMgr.cpp
+.\TextureRes.cpp
+.\KRepresentShell3.cpp
+.\D3D_Utils.cpp
+.\D3D_Shell.cpp
+.\D3D_Device.cpp
+]
+Creating command line "cl.exe @k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\RSP00001A.rsp /nologo"
+Creating temporary file "k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\RSP00001B.rsp" with contents
+[
+/OUT:".\Debug/Represent3.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\..\Lib" /DLL /DEBUG /PDB:".\Debug/Represent3.pdb" /MAP:".\Debug/Represent3.map" /IMPLIB:".\Debug/Represent3.lib" /MACHINE:X86 odbc32.lib odbccp32.lib d3dx9dt.lib d3d9.lib winmm.lib dxguid.lib ddraw.lib GdiPlus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+\1101\Work\Window\Jx\swrod3\SwordOnline\Lib\debug\engine.lib
+.\Debug\D3D_Device.obj
+.\Debug\D3D_Shell.obj
+.\Debug\D3D_Utils.obj
+.\Debug\KCharSet.obj
+.\Debug\KFont3.obj
+.\Debug\KFontData.obj
+.\Debug\KFontRes.obj
+.\Debug\KMRU.obj
+.\Debug\KRepresentShell3.obj
+.\Debug\precompile.obj
+.\Debug\RepresentUtility.obj
+.\Debug\TextProcess.obj
+.\Debug\TextureRes.obj
+.\Debug\TextureResMgr.obj
+]
+Creating command line "link.exe @k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\RSP00001B.rsp"
+Creating temporary file "k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\BAT00001C.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug\
+copy Debug\Represent3.dll ..\..\..\..\bin\client\Represent3.dll
+copy Debug\Represent3.pdb ..\..\..\..\bin\client\Represent3.pdb
+copy Debug\Represent3.dll ..\..\..\..\bin\client\debug\Represent3.dll
+copy Debug\Represent3.pdb ..\..\..\..\bin\client\debug\Represent3.pdb
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Post-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line "k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\BAT00001C.bat"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+precompile.cpp
+Compiling...
+TextureResMgr.cpp
+TextureResMgr.cpp(78) : warning C4018: '>=' : signed/unsigned mismatch
+TextureResMgr.cpp(271) : warning C4018: '<' : signed/unsigned mismatch
+TextureResMgr.cpp(430) : warning C4018: '>' : signed/unsigned mismatch
+TextureResMgr.cpp(531) : warning C4018: '<' : signed/unsigned mismatch
+TextureResMgr.cpp(543) : warning C4018: '<' : signed/unsigned mismatch
+TextureResMgr.cpp(567) : warning C4018: '>' : signed/unsigned mismatch
+TextureResMgr.cpp(575) : warning C4018: '<' : signed/unsigned mismatch
+TextureResMgr.cpp(590) : warning C4018: '<' : signed/unsigned mismatch
+TextureRes.cpp
+KRepresentShell3.cpp
+D3D_Utils.cpp
+D3D_Shell.cpp
+D3D_Device.cpp
+Generating Code...
+Linking...
+   Creating library .\Debug/Represent3.lib and object .\Debug/Represent3.exp
+Performing Post-Build Event...
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://k:\1101\Work\Window\Jx\swrod3\SwordOnline\Sources\Represent\Represent3\Debug\BuildLog.htm"
+Represent3 - 0 error(s), 8 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\temp\RSP215.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\\" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/KServer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\DownLoads\SwordOnline\Sources\Network\KServer\GameServer.cpp"
+"F:\DownLoads\SwordOnline\Sources\Network\KServer\GameServerWorkerThread.cpp"
+"F:\DownLoads\SwordOnline\Sources\Network\KServer\JXServer.cpp"
+"F:\DownLoads\SwordOnline\Sources\Network\KServer\KServer.cpp"
+]
+Creating command line "cl.exe @D:\temp\RSP215.tmp" 
+Creating temporary file "D:\temp\RSP216.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/KServer.pdb" /debug /machine:I386 /out:"Debug/KServer.exe" /pdbtype:sept 
+.\Debug\GameServer.obj
+.\Debug\GameServerWorkerThread.obj
+.\Debug\JXServer.obj
+.\Debug\KServer.obj
+]
+Creating command line "link.exe @D:\temp\RSP216.tmp"
+<h3>Output Window</h3>
+Compiling...
+GameServer.cpp
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(158) : error C2065: 'PACK_HEADER' : undeclared identifier
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(158) : error C2146: syntax error : missing ';' before identifier 'ph'
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(158) : error C2065: 'ph' : undeclared identifier
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(158) : error C2059: syntax error : '{'
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(158) : error C2143: syntax error : missing ';' before '{'
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(158) : error C2143: syntax error : missing ';' before '}'
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(160) : error C2228: left of '.cPackBeginFlag' must have class/struct/union type
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(160) : error C2065: 'PACK_BEGIN_FLAG' : undeclared identifier
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(161) : error C2228: left of '.cPackEndFlag' must have class/struct/union type
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(161) : error C2065: 'PACK_END_FLAG' : undeclared identifier
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(163) : error C2228: left of '.wDataLen' must have class/struct/union type
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(164) : error C2228: left of '.wCRCData' must have class/struct/union type
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(164) : error C2065: 'MAKE_CRC_DATE' : undeclared identifier
+f:\downloads\swordonline\sources\network\kserver\gameserver.cpp(166) : error C2065: 'PACK_HEADER_LEN' : undeclared identifier
+GameServerWorkerThread.cpp
+JXServer.cpp
+f:\downloads\swordonline\sources\network\kserver\jxserver.cpp(194) : error C2511: 'AddClient' : overloaded member function 'unsigned long (class OnlineGameLib::Win32::CSocketServer::Socket *)' not found in 'CClientManager'
+        f:\downloads\swordonline\sources\network\kserver\jxserver.h(82) : see declaration of 'CClientManager'
+f:\downloads\swordonline\sources\network\kserver\jxserver.cpp(431) : error C2660: 'AddClient' : function does not take 1 parameters
+KServer.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+KServer.exe - 16 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

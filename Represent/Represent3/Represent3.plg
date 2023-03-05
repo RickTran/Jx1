@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Represent3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.JX-\LOCALS~1\Temp\RSPA5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\engine\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT3_EXPORTS" /Fp"Release/Represent3.pch" /Yc"precompile.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\precompile.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\ADMINI~1.JX-\LOCALS~1\Temp\RSPA5.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+precompile.cpp
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(109) : error C2011: '_D3DCOLORVALUE' : 'struct' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(128) : error C2011: '_D3DRECT' : 'struct' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(147) : error C2011: '_D3DVECTOR' : 'struct' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(416) : error C2011: '_D3DMATRIX' : 'struct' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(615) : error C2011: '_D3DLIGHTTYPE' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(749) : error C2011: '_D3DSHADEMODE' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(756) : error C2011: '_D3DFILLMODE' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(778) : error C2011: '_D3DBLEND' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(807) : error C2011: '_D3DTEXTUREADDRESS' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(815) : error C2011: '_D3DCULL' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(822) : error C2011: '_D3DCMPFUNC' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(834) : error C2011: '_D3DFOGMODE' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(858) : error C2011: '_D3DPRIMITIVETYPE' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(878) : error C2011: '_D3DTRANSFORMSTATETYPE' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\d3dtypes.h(896) : error C2011: '_D3DRENDERSTATETYPE' : 'enum' type redefinition
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\dsound.h(370) : error C2061: syntax error : identifier 'LPD3DVECTOR'
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\dsound.h(371) : error C2061: syntax error : identifier 'LPD3DVECTOR'
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\dsound.h(373) : error C2061: syntax error : identifier 'LPD3DVECTOR'
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\dsound.h(443) : error C2061: syntax error : identifier 'LPD3DVECTOR'
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\dsound.h(448) : error C2061: syntax error : identifier 'LPD3DVECTOR'
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\dsound.h(449) : error C2061: syntax error : identifier 'LPD3DVECTOR'
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(15) : error C2146: syntax error : missing ';' before identifier 'm_pDirectInput'
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(15) : error C2501: 'LPDIRECTINPUT8' : missing storage-class or type specifiers
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(15) : error C2501: 'm_pDirectInput' : missing storage-class or type specifiers
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(16) : error C2146: syntax error : missing ';' before identifier 'm_pMouseDevice'
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(16) : error C2501: 'LPDIRECTINPUTDEVICE8' : missing storage-class or type specifiers
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(16) : error C2501: 'm_pMouseDevice' : missing storage-class or type specifiers
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(17) : error C2146: syntax error : missing ';' before identifier 'm_pKeyboardDevice'
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(17) : error C2501: 'LPDIRECTINPUTDEVICE8' : missing storage-class or type specifiers
+E:\源代码\劍俠情緣2\劍俠情緣2\Swordman2005\Sword2005\Sources\Represent\Represent3\..\..\engine\src\KDInput.h(17) : error C2501: 'm_pKeyboardDevice' : missing storage-class or type specifiers
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+Represent3.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

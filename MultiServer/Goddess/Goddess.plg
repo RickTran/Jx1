@@ -1,0 +1,2711 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FilterText_StaticLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP9E3F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "FILTERTEXT_STATICLIB" /Fp"FilterText_StaticLib___Win32_Debug/FilterText_StaticLib.pch" /YX /Fo"FilterText_StaticLib___Win32_Debug/" /Fd"FilterText_StaticLib___Win32_Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\FilterText\FilterText.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\FilterText\Regexp.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP9E3F.tmp" 
+Creating command line "link.exe -lib /nologo /out:"FilterText_StaticLib___Win32_Debug\FilterText_StaticLib.lib"  .\FilterText_StaticLib___Win32_Debug\FilterText.obj .\FilterText_StaticLib___Win32_Debug\Regexp.obj "
+<h3>Output Window</h3>
+Compiling...
+FilterText.cpp
+Regexp.cpp
+Creating library...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPA16D.bat" with contents
+[
+@echo off
+md ..\..\lib\debug
+copy FilterText_StaticLib___Win32_Debug\FilterText_StaticLib.lib ..\..\lib\debug\FilterText_StaticLib.lib
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPA16D.bat"
+
+A subdirectory or file ..\..\lib\debug already exists.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+FilterText_StaticLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Common - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPA248.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fp"Debug/Common.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Buffer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Console.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Event.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\EventSelect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Exception.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\IniFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\IOBuffer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\IOCompletionPort.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\KSG_EncodeDecode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\KSocketClient2.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Library.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Macro.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\ManualResetEvent.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Mutex.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\NodeList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Socket.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\SocketAddress.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\SocketClient.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\SocketServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Thread.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\UsesWinsock.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Utils.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Win32Exception.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPA248.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPA249.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\CRC32.C"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPA249.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPA24A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fp"Debug/Common.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPA24A.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPA24B.tmp" with contents
+[
+/nologo /out:"Debug\Common.lib" 
+.\Debug\Buffer.obj
+.\Debug\Console.obj
+.\Debug\CRC32.OBJ
+.\Debug\Event.obj
+.\Debug\EventSelect.obj
+.\Debug\Exception.obj
+.\Debug\IniFile.obj
+.\Debug\IOBuffer.obj
+.\Debug\IOCompletionPort.obj
+.\Debug\KSG_EncodeDecode.obj
+.\Debug\KSocketClient2.obj
+.\Debug\Library.obj
+.\Debug\Macro.obj
+.\Debug\ManualResetEvent.obj
+.\Debug\Mutex.obj
+.\Debug\NodeList.obj
+.\Debug\Socket.obj
+.\Debug\SocketAddress.obj
+.\Debug\SocketClient.obj
+.\Debug\SocketServer.obj
+.\Debug\stdafx.obj
+.\Debug\Thread.obj
+.\Debug\UsesWinsock.obj
+.\Debug\Utils.obj
+.\Debug\Win32Exception.obj
+]
+Creating command line "link.exe -lib @C:\Users\clien\AppData\Local\Temp\RSPA24B.tmp"
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+Compiling...
+Buffer.cpp
+Console.cpp
+Event.cpp
+EventSelect.cpp
+Exception.cpp
+IniFile.cpp
+IOBuffer.cpp
+IOCompletionPort.cpp
+KSG_EncodeDecode.cpp
+KSocketClient2.cpp
+Library.cpp
+Macro.cpp
+ManualResetEvent.cpp
+Mutex.cpp
+NodeList.cpp
+Socket.cpp
+SocketAddress.cpp
+SocketClient.cpp
+SocketServer.cpp
+NOTE : --------------------OnlineGameLib [Client] : Announcement--------------------
+NOTE : The lib be used for socket communicate that it is base on
+NOTE : Windows 95 and Windows NT 3.51 and later
+NOTE :
+NOTE : liupeng xishanju.zhuhai.china 2003.1
+NOTE : -----------------------------------------------------------------------------
+Thread.cpp
+NOTE : --------------------OnlineGame [Server] : Announcement--------------------
+NOTE : Developing a truly scalable Winsock Server using IO Completion Ports(IOCP)
+NOTE : But this module depend on the microsoft platform
+NOTE : Requirements :
+NOTE :    * Windows NT/2000/XP: Included in Windows NT 4.0 and later.
+NOTE :    * Windows 95/98/Me: Unsupported.
+NOTE :
+NOTE : liupeng xishanju.zhuhai.china 2003.1
+NOTE : -----------------------------------------------------------------------------
+Generating Code...
+Compiling...
+UsesWinsock.cpp
+Utils.cpp
+Win32Exception.cpp
+Generating Code...
+Compiling...
+CRC32.C
+Creating library...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPAF3D.bat" with contents
+[
+@echo off
+md ..\..\..\lib\debug
+copy debug\common.lib ..\..\..\lib\debug\common.lib
+copy debug\common.lib ..\gameserver\common.lib
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPAF3D.bat"
+
+A subdirectory or file ..\..\..\lib\debug already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Common.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Server Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPB0A5.tmp" with contents
+[
+/nologo /MTd /W2 /Gm /GX /Zi /Od /I "..\engine\src" /I "..\engine\include" /I "..\Network" /I "..\..\Headers" /D "_DEBUG" /D "_SERVER" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /FR"ServerDebug/" /Fp"ServerDebug/Core.pch" /Yu"KCore.h" /Fo"ServerDebug/" /Fd"ServerDebug/" /FD /LD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPartnerSkill.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerPartner.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KThiefSkill.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMissle.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMissleRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMissleSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkillList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkillManager.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkills.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkillSpecial.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KFaction.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpc.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcAI.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcAttribModify.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcDeathCalcExp.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcFindPath.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcGold.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcResList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcResNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcTemplate.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerChat.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerDBFuns.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerFaction.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerMenuState.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerPK.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTask.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTeam.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTong.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTrade.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSprControl.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KBasPropTbl.CPP"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KBuySell.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KInventory.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItem.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemChangeRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemGenerator.CPP"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KObj.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KObjSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KViewItem.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KCore.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSubWorld.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSubWorldSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KWeatherMgr.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KRegion.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KWorldMsg.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMath.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KGMProcess.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNewProtocolProcess.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KProtocol.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KProtocolProcess.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\ScriptFuns.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KScriptValueSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSortScript.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\src\CoreServerShell.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\KWeather.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMagicDesc.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KGMCommand.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMission.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KTaskFuns.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KOption.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMapMusic.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KLadder.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPB0A5.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPB0A6.tmp" with contents
+[
+/nologo /MTd /W2 /Gm /GX /Zi /Od /I "..\engine\src" /I "..\engine\include" /I "..\Network" /I "..\..\Headers" /D "_DEBUG" /D "_SERVER" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /FR"ServerDebug/" /Fp"ServerDebug/Core.pch" /Yc"KCore.h" /Fo"ServerDebug/" /Fd"ServerDebug/" /FD /LD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPB0A6.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPB0B7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lualibdll.lib Ws2_32.lib Winmm.lib Shlwapi.lib /nologo /dll /incremental:no /pdb:"ServerDebug/CoreServer.pdb" /map:"ServerDebug/CoreServer.map" /debug /machine:I386 /nodefaultlib:"libc.lib" /nodefaultlib:"libcmt.lib" /nodefaultlib:"msvcrt.lib" /nodefaultlib:"libcd.lib" /nodefaultlib:"msvcrtd.lib" /out:"ServerDebug\CoreServer.dll" /implib:"ServerDebug/CoreServer.lib" /pdbtype:sept /libpath:"../../lib/" 
+.\ServerDebug\KPartnerSkill.obj
+.\ServerDebug\KPlayerPartner.obj
+.\ServerDebug\KThiefSkill.obj
+.\ServerDebug\KMissle.obj
+.\ServerDebug\KMissleRes.obj
+.\ServerDebug\KMissleSet.obj
+.\ServerDebug\KSkillList.obj
+.\ServerDebug\KSkillManager.obj
+.\ServerDebug\KSkills.obj
+.\ServerDebug\KSkillSpecial.obj
+.\ServerDebug\KFaction.obj
+.\ServerDebug\KNpc.obj
+.\ServerDebug\KNpcAI.obj
+.\ServerDebug\KNpcAttribModify.obj
+.\ServerDebug\KNpcDeathCalcExp.obj
+.\ServerDebug\KNpcFindPath.obj
+.\ServerDebug\KNpcGold.obj
+.\ServerDebug\KNpcRes.obj
+.\ServerDebug\KNpcResList.obj
+.\ServerDebug\KNpcResNode.obj
+.\ServerDebug\KNpcSet.obj
+.\ServerDebug\KNpcTemplate.obj
+.\ServerDebug\KPlayer.obj
+.\ServerDebug\KPlayerChat.obj
+.\ServerDebug\KPlayerDBFuns.obj
+.\ServerDebug\KPlayerFaction.obj
+.\ServerDebug\KPlayerMenuState.obj
+.\ServerDebug\KPlayerPK.obj
+.\ServerDebug\KPlayerSet.obj
+.\ServerDebug\KPlayerTask.obj
+.\ServerDebug\KPlayerTeam.obj
+.\ServerDebug\KPlayerTong.obj
+.\ServerDebug\KPlayerTrade.obj
+.\ServerDebug\KSprControl.obj
+.\ServerDebug\KBasPropTbl.obj
+.\ServerDebug\KBuySell.obj
+.\ServerDebug\KInventory.obj
+.\ServerDebug\KItem.obj
+.\ServerDebug\KItemChangeRes.obj
+.\ServerDebug\KItemGenerator.obj
+.\ServerDebug\KItemList.obj
+.\ServerDebug\KItemSet.obj
+.\ServerDebug\KObj.obj
+.\ServerDebug\KObjSet.obj
+.\ServerDebug\KViewItem.obj
+.\ServerDebug\KCore.obj
+.\ServerDebug\KSubWorld.obj
+.\ServerDebug\KSubWorldSet.obj
+.\ServerDebug\KWeatherMgr.obj
+.\ServerDebug\KRegion.obj
+.\ServerDebug\KWorldMsg.obj
+.\ServerDebug\KMath.obj
+.\ServerDebug\KGMProcess.obj
+.\ServerDebug\KNewProtocolProcess.obj
+.\ServerDebug\KProtocol.obj
+.\ServerDebug\KProtocolProcess.obj
+.\ServerDebug\ScriptFuns.obj
+.\ServerDebug\KScriptValueSet.obj
+.\ServerDebug\KSortScript.obj
+.\ServerDebug\CoreServerShell.obj
+.\ServerDebug\KWeather.obj
+.\ServerDebug\KMagicDesc.obj
+.\ServerDebug\KGMCommand.obj
+.\ServerDebug\KMission.obj
+.\ServerDebug\KTaskFuns.obj
+.\ServerDebug\KOption.obj
+.\ServerDebug\KMapMusic.obj
+.\ServerDebug\KLadder.obj
+.\ServerDebug\stdafx.obj
+..\..\Lib\debug\engine.lib
+..\..\Lib\debug\common.lib
+.\Src\USBKey\EP1KDL20.LIB
+.\Src\USBKey\EpsForJoLib.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPB0B7.tmp"
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+Compiling...
+KPartnerSkill.cpp
+KPlayerPartner.cpp
+KThiefSkill.cpp
+KMissle.cpp
+KMissleRes.cpp
+KMissleSet.cpp
+KSkillList.cpp
+KSkillManager.cpp
+KSkills.cpp
+KSkillSpecial.cpp
+KFaction.cpp
+KNpc.cpp
+KNpcAI.cpp
+KNpcAttribModify.cpp
+KNpcDeathCalcExp.cpp
+KNpcFindPath.cpp
+KNpcGold.cpp
+KNpcRes.cpp
+KNpcResList.cpp
+KNpcResNode.cpp
+Generating Code...
+Compiling...
+KNpcSet.cpp
+KNpcTemplate.cpp
+KPlayer.cpp
+KPlayerChat.cpp
+KPlayerDBFuns.cpp
+KPlayerFaction.cpp
+KPlayerMenuState.cpp
+KPlayerPK.cpp
+KPlayerSet.cpp
+KPlayerTask.cpp
+KPlayerTeam.cpp
+KPlayerTong.cpp
+KPlayerTrade.cpp
+KSprControl.cpp
+KBasPropTbl.CPP
+KBuySell.cpp
+KInventory.cpp
+KItem.cpp
+KItemChangeRes.cpp
+KItemGenerator.CPP
+Generating Code...
+Compiling...
+KItemList.cpp
+KItemSet.cpp
+KObj.cpp
+KObjSet.cpp
+KViewItem.cpp
+KCore.cpp
+KSubWorld.cpp
+KSubWorldSet.cpp
+KWeatherMgr.cpp
+KRegion.cpp
+KWorldMsg.cpp
+KMath.cpp
+KGMProcess.cpp
+KNewProtocolProcess.cpp
+KProtocol.cpp
+KProtocolProcess.cpp
+ScriptFuns.cpp
+KScriptValueSet.cpp
+KSortScript.cpp
+CoreServerShell.cpp
+Generating Code...
+Compiling...
+KWeather.cpp
+KMagicDesc.cpp
+KGMCommand.cpp
+KMission.cpp
+KTaskFuns.cpp
+KOption.cpp
+KMapMusic.cpp
+KLadder.cpp
+Generating Code...
+Linking...
+   Creating library ServerDebug/CoreServer.lib and object ServerDebug/CoreServer.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPC1BF.bat" with contents
+[
+@echo off
+md ..\..\..\bin\server\debug
+md ..\..\lib\debug
+copy ServerDebug\CoreServer.map ..\..\..\bin\server\Coreserver.map
+copy ServerDebug\CoreServer.pdb ..\..\..\bin\server\Coreserver.pdb
+copy ServerDebug\CoreServer.dll ..\..\..\bin\server\Coreserver.dll
+copy ServerDebug\CoreServer.map ..\..\..\bin\server\debug\Coreserver.map
+copy ServerDebug\CoreServer.pdb ..\..\..\bin\server\debug\Coreserver.pdb
+copy ServerDebug\CoreServer.dll ..\..\..\bin\server\debug\Coreserver.dll
+copy ServerDebug\CoreServer.lib ..\..\lib\debug\CoreServer.lib
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPC1BF.bat"
+
+A subdirectory or file ..\..\..\bin\server\debug already exists.
+A subdirectory or file ..\..\lib\debug already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+CoreServer.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Client Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPC431.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\engine\src" /I "..\..\Headers" /I "..\engine\include" /I "..\Network" /I "src" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /D "SWORDONLINE_SHOW_DBUG_INFO" /FR"ClientDebug/" /Fp"ClientDebug/Core.pch" /Yu"KCore.h" /Fo"ClientDebug/" /Fd"ClientDebug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPartnerSkill.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerPartner.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KThiefSkill.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMissle.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMissleRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMissleSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkillList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkillManager.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkills.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSkillSpecial.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KFaction.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpc.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcAI.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcAttribModify.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcDeathCalcExp.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcFindPath.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcGold.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcResList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcResNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KNpcTemplate.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerChat.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerDBFuns.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerFaction.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerMenuState.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerPK.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTask.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTeam.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTong.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KPlayerTrade.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSprControl.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KBasPropTbl.CPP"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KBuySell.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KInventory.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItem.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemChangeRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemGenerator.CPP"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KItemSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KObj.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KObjSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KViewItem.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KCore.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSubWorld.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSubWorldSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KWeatherMgr.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KRegion.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KWorldMsg.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMath.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KProtocol.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KProtocolProcess.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\ScriptFuns.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KScriptValueSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KSortScript.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\CoreShell.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\KIpotBranch.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\KIpotLeaf.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\KScenePlaceC.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\KScenePlaceRegionC.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\KWeather.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\SceneMath.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\ScenePlaceMapC.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\CoreDrawGameObj.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\ImgRef.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMagicDesc.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KGMCommand.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KTaskFuns.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KOption.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KMapMusic.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\KLadder.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPC431.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPC432.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\engine\src" /I "..\..\Headers" /I "..\engine\include" /I "..\Network" /I "src" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /D "SWORDONLINE_SHOW_DBUG_INFO" /FR"ClientDebug/" /Fo"ClientDebug/" /Fd"ClientDebug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\Scene\KIpoTree.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPC432.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPC433.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\engine\src" /I "..\..\Headers" /I "..\engine\include" /I "..\Network" /I "src" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /D "SWORDONLINE_SHOW_DBUG_INFO" /FR"ClientDebug/" /Fp"ClientDebug/Core.pch" /Yc"KCore.h" /Fo"ClientDebug/" /Fd"ClientDebug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Core\Src\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPC433.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPC434.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lualibdll.lib Shlwapi.lib Winmm.lib /nologo /dll /incremental:no /pdb:"ClientDebug/CoreClient.pdb" /map:"ClientDebug/CoreClient.map" /debug /machine:I386 /out:"ClientDebug\CoreClient.dll" /implib:"ClientDebug/CoreClient.lib" /pdbtype:sept /libpath:"../../lib/" 
+.\ClientDebug\KPartnerSkill.obj
+.\ClientDebug\KPlayerPartner.obj
+.\ClientDebug\KThiefSkill.obj
+.\ClientDebug\KMissle.obj
+.\ClientDebug\KMissleRes.obj
+.\ClientDebug\KMissleSet.obj
+.\ClientDebug\KSkillList.obj
+.\ClientDebug\KSkillManager.obj
+.\ClientDebug\KSkills.obj
+.\ClientDebug\KSkillSpecial.obj
+.\ClientDebug\KFaction.obj
+.\ClientDebug\KNpc.obj
+.\ClientDebug\KNpcAI.obj
+.\ClientDebug\KNpcAttribModify.obj
+.\ClientDebug\KNpcDeathCalcExp.obj
+.\ClientDebug\KNpcFindPath.obj
+.\ClientDebug\KNpcGold.obj
+.\ClientDebug\KNpcRes.obj
+.\ClientDebug\KNpcResList.obj
+.\ClientDebug\KNpcResNode.obj
+.\ClientDebug\KNpcSet.obj
+.\ClientDebug\KNpcTemplate.obj
+.\ClientDebug\KPlayer.obj
+.\ClientDebug\KPlayerChat.obj
+.\ClientDebug\KPlayerDBFuns.obj
+.\ClientDebug\KPlayerFaction.obj
+.\ClientDebug\KPlayerMenuState.obj
+.\ClientDebug\KPlayerPK.obj
+.\ClientDebug\KPlayerSet.obj
+.\ClientDebug\KPlayerTask.obj
+.\ClientDebug\KPlayerTeam.obj
+.\ClientDebug\KPlayerTong.obj
+.\ClientDebug\KPlayerTrade.obj
+.\ClientDebug\KSprControl.obj
+.\ClientDebug\KBasPropTbl.obj
+.\ClientDebug\KBuySell.obj
+.\ClientDebug\KInventory.obj
+.\ClientDebug\KItem.obj
+.\ClientDebug\KItemChangeRes.obj
+.\ClientDebug\KItemGenerator.obj
+.\ClientDebug\KItemList.obj
+.\ClientDebug\KItemSet.obj
+.\ClientDebug\KObj.obj
+.\ClientDebug\KObjSet.obj
+.\ClientDebug\KViewItem.obj
+.\ClientDebug\KCore.obj
+.\ClientDebug\KSubWorld.obj
+.\ClientDebug\KSubWorldSet.obj
+.\ClientDebug\KWeatherMgr.obj
+.\ClientDebug\KRegion.obj
+.\ClientDebug\KWorldMsg.obj
+.\ClientDebug\KMath.obj
+.\ClientDebug\KProtocol.obj
+.\ClientDebug\KProtocolProcess.obj
+.\ClientDebug\ScriptFuns.obj
+.\ClientDebug\KScriptValueSet.obj
+.\ClientDebug\KSortScript.obj
+.\ClientDebug\CoreShell.obj
+.\ClientDebug\KIpotBranch.obj
+.\ClientDebug\KIpotLeaf.obj
+.\ClientDebug\KIpoTree.obj
+.\ClientDebug\KScenePlaceC.obj
+.\ClientDebug\KScenePlaceRegionC.obj
+.\ClientDebug\KWeather.obj
+.\ClientDebug\SceneMath.obj
+.\ClientDebug\ScenePlaceMapC.obj
+.\ClientDebug\CoreDrawGameObj.obj
+.\ClientDebug\ImgRef.obj
+.\ClientDebug\KMagicDesc.obj
+.\ClientDebug\KGMCommand.obj
+.\ClientDebug\KTaskFuns.obj
+.\ClientDebug\KOption.obj
+.\ClientDebug\KMapMusic.obj
+.\ClientDebug\KLadder.obj
+.\ClientDebug\stdafx.obj
+..\..\Lib\debug\engine.lib
+..\..\Lib\debug\common.lib
+.\Src\USBKey\EP1KDL20.LIB
+.\Src\USBKey\EpsForJoLib.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPC434.tmp"
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+Compiling...
+KPartnerSkill.cpp
+KPlayerPartner.cpp
+KThiefSkill.cpp
+KMissle.cpp
+KMissleRes.cpp
+KMissleSet.cpp
+KSkillList.cpp
+KSkillManager.cpp
+KSkills.cpp
+KSkillSpecial.cpp
+KFaction.cpp
+KNpc.cpp
+KNpcAI.cpp
+KNpcAttribModify.cpp
+KNpcDeathCalcExp.cpp
+KNpcFindPath.cpp
+KNpcGold.cpp
+KNpcRes.cpp
+KNpcResList.cpp
+KNpcResNode.cpp
+Generating Code...
+Compiling...
+KNpcSet.cpp
+KNpcTemplate.cpp
+KPlayer.cpp
+KPlayerChat.cpp
+KPlayerDBFuns.cpp
+KPlayerFaction.cpp
+KPlayerMenuState.cpp
+KPlayerPK.cpp
+KPlayerSet.cpp
+KPlayerTask.cpp
+KPlayerTeam.cpp
+KPlayerTong.cpp
+KPlayerTrade.cpp
+KSprControl.cpp
+KBasPropTbl.CPP
+KBuySell.cpp
+KInventory.cpp
+KItem.cpp
+KItemChangeRes.cpp
+KItemGenerator.CPP
+Generating Code...
+Compiling...
+KItemList.cpp
+KItemSet.cpp
+KObj.cpp
+KObjSet.cpp
+KViewItem.cpp
+KCore.cpp
+KSubWorld.cpp
+KSubWorldSet.cpp
+KWeatherMgr.cpp
+KRegion.cpp
+KWorldMsg.cpp
+KMath.cpp
+KProtocol.cpp
+KProtocolProcess.cpp
+ScriptFuns.cpp
+KScriptValueSet.cpp
+KSortScript.cpp
+CoreShell.cpp
+KIpotBranch.cpp
+KIpotLeaf.cpp
+Generating Code...
+Compiling...
+KScenePlaceC.cpp
+KScenePlaceRegionC.cpp
+KWeather.cpp
+SceneMath.cpp
+ScenePlaceMapC.cpp
+CoreDrawGameObj.cpp
+ImgRef.cpp
+KMagicDesc.cpp
+KGMCommand.cpp
+KTaskFuns.cpp
+KOption.cpp
+KMapMusic.cpp
+KLadder.cpp
+Generating Code...
+Compiling...
+KIpoTree.cpp
+Linking...
+   Creating library ClientDebug/CoreClient.lib and object ClientDebug/CoreClient.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPD30A.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug
+md ..\..\lib\debug
+copy ClientDebug\CoreClient.pdb ..\..\..\bin\client\CoreClient.pdb
+copy ClientDebug\CoreClient.map ..\..\..\bin\client\CoreClient.map
+copy ClientDebug\CoreClient.dll ..\..\..\bin\client\CoreClient.dll
+copy ClientDebug\CoreClient.pdb ..\..\..\bin\client\debug\CoreClient.pdb
+copy ClientDebug\CoreClient.map ..\..\..\bin\client\debug\CoreClient.map
+copy ClientDebug\CoreClient.dll ..\..\..\bin\client\debug\CoreClient.dll
+copy ClientDebug\CoreClient.lib ..\..\lib\debug\CoreClient.lib
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPD30A.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug already exists.
+A subdirectory or file ..\..\lib\debug already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+CoreClient.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Engine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPD78F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /D "USE_STANDALONE_SPR" /D WINVER=0x0500 /FR"Debug/" /Fp"Debug/Engine.pch" /Yu"KWin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KAutoMutex.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KAviFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KBitmap.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KBitmap16.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KBitmapConvert.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KBmp2Spr.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KBmpFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KBmpFile24.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KCache.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KCanvas.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KCodec.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KCodecLzo.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KColors.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDDraw.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDebug.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDError.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDInput.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDrawBase.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDrawBitmap.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDrawBitmap16.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDrawFade.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDrawFont.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDrawSprite.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDrawSpriteAlpha.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KDSound.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KEicScript.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KEicScriptSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KEngine.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KEvent.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KFileCopy.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KFileDialog.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KFilePath.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KFindBinTree.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KFont.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KGifFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KGraphics.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KHashList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KHashNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KHashTable.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\Kime.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KIniFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KJpgFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KKeyboard.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KLinkArray.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KLuaScript.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KLuaScriptSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KLubCmpl_Blocker.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMemBase.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMemClass.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMemClass1.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMemManager.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMemStack.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMessage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMouse.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMp3Music.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMp4Audio.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMp4Movie.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMp4Video.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMpgMusic.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMsgNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMusic.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KMutex.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KOctree.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KOctreeNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPakData.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPakFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPakList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPakTool.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPalette.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPcxFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPolygon.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KPolyRelation.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KRandom.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSafeList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KScanDir.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KScript.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KScriptCache.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KScriptList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KScriptSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSG_MD5_String.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSG_StringProcess.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSortBinTree.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSortList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSoundCache.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSprite.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSpriteCache.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSpriteCodec.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KSpriteMaker.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KStepLuaScript.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KStrBase.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KStrList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KStrNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KTabFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KTabFileCtrl.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KTgaFile32.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KThread.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KTimer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KVideo.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KWavCodec.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KWavFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KWavMusic.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KWavSound.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KWin32.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KWin32App.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KWin32Wnd.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KZipCodec.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KZipData.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KZipFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\KZipList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\md5.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\XPackFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\Cryptography\EDOneTimePad.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\Text.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPD78F.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPD790.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /D "USE_STANDALONE_SPR" /D WINVER=0x0500 /FR"Debug/" /Fp"Debug/Engine.pch" /Yc"kwin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPD790.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPD791.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /D "USE_STANDALONE_SPR" /D WINVER=0x0500 /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\alloc.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\io.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2b_99.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2b_d.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2b_ds.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2b_to.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2d_99.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2d_d.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2d_ds.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2d_to.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2e_99.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2e_d.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2e_ds.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\n2e_to.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\ucl_crc.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\ucl_dll.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\ucl_init.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\ucl_ptr.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\ucl_str.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Engine\Src\ucl\ucl_util.c"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPD791.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPD792.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib ddraw.lib dsound.lib dxguid.lib winmm.lib wsock32.lib dinput8.lib /nologo /dll /incremental:no /pdb:"Debug/Engine.pdb" /map:"Debug/Engine.map" /debug /machine:I386 /out:"Debug/Engine.dll" /implib:"Debug/Engine.lib" /pdbtype:sept 
+.\Debug\KAutoMutex.obj
+.\Debug\KAviFile.obj
+.\Debug\KBitmap.obj
+.\Debug\KBitmap16.obj
+.\Debug\KBitmapConvert.obj
+.\Debug\KBmp2Spr.obj
+.\Debug\KBmpFile.obj
+.\Debug\KBmpFile24.obj
+.\Debug\KCache.obj
+.\Debug\KCanvas.obj
+.\Debug\KCodec.obj
+.\Debug\KCodecLzo.obj
+.\Debug\KColors.obj
+.\Debug\KDDraw.obj
+.\Debug\KDebug.obj
+.\Debug\KDError.obj
+.\Debug\KDInput.obj
+.\Debug\KDrawBase.obj
+.\Debug\KDrawBitmap.obj
+.\Debug\KDrawBitmap16.obj
+.\Debug\KDrawFade.obj
+.\Debug\KDrawFont.obj
+.\Debug\KDrawSprite.obj
+.\Debug\KDrawSpriteAlpha.obj
+.\Debug\KDSound.obj
+.\Debug\KEicScript.obj
+.\Debug\KEicScriptSet.obj
+.\Debug\KEngine.obj
+.\Debug\KEvent.obj
+.\Debug\KFile.obj
+.\Debug\KFileCopy.obj
+.\Debug\KFileDialog.obj
+.\Debug\KFilePath.obj
+.\Debug\KFindBinTree.obj
+.\Debug\KFont.obj
+.\Debug\KGifFile.obj
+.\Debug\KGraphics.obj
+.\Debug\KHashList.obj
+.\Debug\KHashNode.obj
+.\Debug\KHashTable.obj
+.\Debug\Kime.obj
+.\Debug\KIniFile.obj
+.\Debug\KJpgFile.obj
+.\Debug\KKeyboard.obj
+.\Debug\KLinkArray.obj
+.\Debug\KList.obj
+.\Debug\KLuaScript.obj
+.\Debug\KLuaScriptSet.obj
+.\Debug\KLubCmpl_Blocker.obj
+.\Debug\KMemBase.obj
+.\Debug\KMemClass.obj
+.\Debug\KMemClass1.obj
+.\Debug\KMemManager.obj
+.\Debug\KMemStack.obj
+.\Debug\KMessage.obj
+.\Debug\KMouse.obj
+.\Debug\KMp3Music.obj
+.\Debug\KMp4Audio.obj
+.\Debug\KMp4Movie.obj
+.\Debug\KMp4Video.obj
+.\Debug\KMpgMusic.obj
+.\Debug\KMsgNode.obj
+.\Debug\KMusic.obj
+.\Debug\KMutex.obj
+.\Debug\KNode.obj
+.\Debug\KOctree.obj
+.\Debug\KOctreeNode.obj
+.\Debug\KPakData.obj
+.\Debug\KPakFile.obj
+.\Debug\KPakList.obj
+.\Debug\KPakTool.obj
+.\Debug\KPalette.obj
+.\Debug\KPcxFile.obj
+.\Debug\KPolygon.obj
+.\Debug\KPolyRelation.obj
+.\Debug\KRandom.obj
+.\Debug\KSafeList.obj
+.\Debug\KScanDir.obj
+.\Debug\KScript.obj
+.\Debug\KScriptCache.obj
+.\Debug\KScriptList.obj
+.\Debug\KScriptSet.obj
+.\Debug\KSG_MD5_String.obj
+.\Debug\KSG_StringProcess.obj
+.\Debug\KSortBinTree.obj
+.\Debug\KSortList.obj
+.\Debug\KSoundCache.obj
+.\Debug\KSprite.obj
+.\Debug\KSpriteCache.obj
+.\Debug\KSpriteCodec.obj
+.\Debug\KSpriteMaker.obj
+.\Debug\KStepLuaScript.obj
+.\Debug\KStrBase.obj
+.\Debug\KStrList.obj
+.\Debug\KStrNode.obj
+.\Debug\KTabFile.obj
+.\Debug\KTabFileCtrl.obj
+.\Debug\KTgaFile32.obj
+.\Debug\KThread.obj
+.\Debug\KTimer.obj
+.\Debug\KVideo.obj
+.\Debug\KWavCodec.obj
+.\Debug\KWavFile.obj
+.\Debug\KWavMusic.obj
+.\Debug\KWavSound.obj
+.\Debug\KWin32.obj
+.\Debug\KWin32App.obj
+.\Debug\KWin32Wnd.obj
+.\Debug\KZipCodec.obj
+.\Debug\KZipData.obj
+.\Debug\KZipFile.obj
+.\Debug\KZipList.obj
+.\Debug\md5.obj
+.\Debug\stdafx.obj
+.\Debug\XPackFile.obj
+.\Debug\EDOneTimePad.obj
+.\Debug\Text.obj
+.\Debug\alloc.obj
+.\Debug\io.obj
+.\Debug\n2b_99.obj
+.\Debug\n2b_d.obj
+.\Debug\n2b_ds.obj
+.\Debug\n2b_to.obj
+.\Debug\n2d_99.obj
+.\Debug\n2d_d.obj
+.\Debug\n2d_ds.obj
+.\Debug\n2d_to.obj
+.\Debug\n2e_99.obj
+.\Debug\n2e_d.obj
+.\Debug\n2e_ds.obj
+.\Debug\n2e_to.obj
+.\Debug\ucl_crc.obj
+.\Debug\ucl_dll.obj
+.\Debug\ucl_init.obj
+.\Debug\ucl_ptr.obj
+.\Debug\ucl_str.obj
+.\Debug\ucl_util.obj
+..\..\Lib\debug\JpgLib.lib
+..\..\Lib\debug\LuaLibDll.lib
+..\..\Lib\debug\mp3lib.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPD792.tmp"
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+KAutoMutex.cpp
+KAviFile.cpp
+KBitmap.cpp
+KBitmap16.cpp
+KBitmapConvert.cpp
+KBmp2Spr.cpp
+KBmpFile.cpp
+KBmpFile24.cpp
+KCache.cpp
+KCanvas.cpp
+KCodec.cpp
+KCodecLzo.cpp
+KColors.cpp
+KDDraw.cpp
+KDebug.cpp
+KDError.cpp
+KDInput.cpp
+KDrawBase.cpp
+KDrawBitmap.cpp
+KDrawBitmap16.cpp
+Generating Code...
+Compiling...
+KDrawFade.cpp
+KDrawFont.cpp
+KDrawSprite.cpp
+KDrawSpriteAlpha.cpp
+KDSound.cpp
+KEicScript.cpp
+KEicScriptSet.cpp
+KEngine.cpp
+KEvent.cpp
+KFile.cpp
+KFileCopy.cpp
+KFileDialog.cpp
+KFilePath.cpp
+KFindBinTree.cpp
+KFont.cpp
+KGifFile.cpp
+KGraphics.cpp
+KHashList.cpp
+KHashNode.cpp
+KHashTable.cpp
+Generating Code...
+Compiling...
+Kime.cpp
+KIniFile.cpp
+KJpgFile.cpp
+KIniFile 当前不支持 KeyName 为中文! by Romandou
+KKeyboard.cpp
+KLinkArray.cpp
+KList.cpp
+KLuaScript.cpp
+KLuaScriptSet.cpp
+KLubCmpl_Blocker.cpp
+KMemBase.cpp
+KMemClass.cpp
+KMemClass1.cpp
+KMemManager.cpp
+KMemStack.cpp
+KMessage.cpp
+KMouse.cpp
+KMp3Music.cpp
+KMp4Audio.cpp
+KMp4Movie.cpp
+KMp4Video.cpp
+Generating Code...
+Compiling...
+KMpgMusic.cpp
+KMsgNode.cpp
+KMusic.cpp
+KMutex.cpp
+KNode.cpp
+KOctree.cpp
+KOctreeNode.cpp
+KPakData.cpp
+KPakFile.cpp
+KPakList.cpp
+KPakTool.cpp
+KPalette.cpp
+KPcxFile.cpp
+KPolygon.cpp
+KPolyRelation.cpp
+KRandom.cpp
+KSafeList.cpp
+KScanDir.cpp
+KScript.cpp
+KScriptCache.cpp
+Generating Code...
+Compiling...
+KScriptList.cpp
+KScriptSet.cpp
+KSG_MD5_String.cpp
+KSG_StringProcess.cpp
+KSortBinTree.cpp
+KSortList.cpp
+KSoundCache.cpp
+KSprite.cpp
+KSpriteCache.cpp
+KSpriteCodec.cpp
+KSpriteMaker.cpp
+KStepLuaScript.cpp
+KStrBase.cpp
+KStrList.cpp
+KStrNode.cpp
+KTabFile.cpp
+KTabFileCtrl.cpp
+KTgaFile32.cpp
+KThread.cpp
+KTimer.cpp
+Generating Code...
+Compiling...
+KVideo.cpp
+KWavCodec.cpp
+KWavFile.cpp
+KWavMusic.cpp
+KWavSound.cpp
+KWin32.cpp
+KWin32App.cpp
+KWin32Wnd.cpp
+KZipCodec.cpp
+KZipData.cpp
+KZipFile.cpp
+KZipList.cpp
+md5.cpp
+XPackFile.cpp
+EDOneTimePad.cpp
+Text.cpp
+Generating Code...
+Compiling...
+alloc.c
+io.c
+n2b_99.c
+n2b_d.c
+n2b_ds.c
+n2b_to.c
+n2d_99.c
+n2d_d.c
+n2d_ds.c
+n2d_to.c
+n2e_99.c
+n2e_d.c
+n2e_ds.c
+n2e_to.c
+ucl_crc.c
+ucl_dll.c
+ucl_init.c
+ucl_ptr.c
+ucl_str.c
+ucl_util.c
+Generating Code...
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library Debug/Engine.lib and object Debug/Engine.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE109.bat" with contents
+[
+@echo off
+md ..\..\lib\debug
+copy debug\engine.lib ..\..\lib\debug\engine.lib
+md ..\..\..\bin\client\debug\
+copy debug\engine.dll ..\..\..\bin\client\engine.dll
+copy debug\engine.dll ..\..\..\bin\client\debug\engine.dll
+md ..\..\..\bin\server\debug\
+copy debug\engine.dll ..\..\..\bin\server\engine.dll
+copy debug\engine.dll ..\..\..\bin\server\debug\engine.dll
+md ..\..\..\bin\multiserver\debug\
+copy debug\engine.dll ..\..\..\bin\multiserver\engine.dll
+copy debug\engine.dll ..\..\..\bin\multiserver\debug\engine.dll
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPE109.bat"
+
+A subdirectory or file ..\..\lib\debug already exists.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Engine.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: FilterText - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE2A0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FILTERTEXT_EXPORTS" /Fp"Debug/FilterText.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\FilterText\FilterText.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\FilterText\Regexp.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPE2A0.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE2A1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FILTERTEXT_EXPORTS" /Fp"Debug/FilterText.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\FilterText\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPE2A1.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE2A2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/FilterText.pdb" /debug /machine:I386 /out:"Debug/FilterText.dll" /implib:"Debug/FilterText.lib" /pdbtype:sept 
+.\Debug\FilterText.obj
+.\Debug\Regexp.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPE2A2.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+FilterText.cpp
+Regexp.cpp
+Generating Code...
+Linking...
+   Creating library Debug/FilterText.lib and object Debug/FilterText.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE4B7.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug
+copy debug\FilterText.dll ..\..\..\bin\Client\FilterText.dll
+copy debug\FilterText.dll ..\..\..\bin\Client\debug\FilterText.dll
+md ..\..\..\bin\multiserver\debug
+copy debug\FilterText.dll ..\..\..\bin\multiserver\FilterText.dll
+copy debug\FilterText.dll ..\..\..\bin\multiserver\debug\FilterText.dll
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPE4B7.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\debug already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+FilterText.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExpandPackage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE5D1.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "EXPANDPACKAGE_EXPORTS" /Fp"Debug/ExpandPackage.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\BlockSource.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\DataPointFromStream.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\DataSource.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\ExpandPackage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\Interval.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\Package.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\PackageFileHead.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPE5D1.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE5D2.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "EXPANDPACKAGE_EXPORTS" /Fp"Debug/ExpandPackage.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPE5D2.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPE5D3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/ExpandPackage.pdb" /debug /machine:I386 /def:".\ExpandPackage.def" /out:"Debug/ExpandPackage.dll" /implib:"Debug/ExpandPackage.lib" /pdbtype:sept 
+.\Debug\BlockSource.obj
+.\Debug\DataPointFromStream.obj
+.\Debug\DataSource.obj
+.\Debug\ExpandPackage.obj
+.\Debug\Interval.obj
+.\Debug\Package.obj
+.\Debug\PackageFileHead.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPE5D3.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BlockSource.cpp
+DataPointFromStream.cpp
+DataSource.cpp
+ExpandPackage.cpp
+Interval.cpp
+Package.cpp
+PackageFileHead.cpp
+Generating Code...
+Linking...
+   Creating library Debug/ExpandPackage.lib and object Debug/ExpandPackage.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPEB23.bat" with contents
+[
+@echo off
+copy debug\ExpandPackage.dll ..\..\..\bin\Client\ExpandPackage.dll
+copy debug\ExpandPackage.dll ..\..\..\bin\Client\debug\ExpandPackage.dll
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPEB23.bat"
+
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ExpandPackage.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPEC5D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\engine\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT2_EXPORTS" /FR"Debug/" /Fp"Debug/Represent2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent2\KImageStore2.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\RepresentUtility.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent2\KRepresentShell2.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Font\KFont2.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Font\KFontData.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Text\TextProcess.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Image\ImageOperation.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPEC5D.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPEC5E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib GdiPlus.lib /nologo /dll /incremental:no /pdb:"Debug/Represent2.pdb" /map:"Debug/Represent2.map" /debug /machine:I386 /out:"Debug/Represent2.dll" /implib:"../../../lib/Represent.lib" /pdbtype:sept 
+.\Debug\KImageStore2.obj
+.\Debug\RepresentUtility.obj
+.\Debug\KRepresentShell2.obj
+.\Debug\KFont2.obj
+.\Debug\KFontData.obj
+.\Debug\TextProcess.obj
+.\Debug\ImageOperation.obj
+..\..\..\Lib\debug\engine.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPEC5E.tmp"
+<h3>Output Window</h3>
+Compiling...
+KImageStore2.cpp
+RepresentUtility.cpp
+KRepresentShell2.cpp
+KFont2.cpp
+KFontData.cpp
+TextProcess.cpp
+ImageOperation.cpp
+Linking...
+   Creating library ../../../lib/Represent.lib and object ../../../lib/Represent.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPF23B.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug\
+copy Debug\Represent2.dll ..\..\..\..\bin\client\Represent2.dll
+copy Debug\Represent2.dll ..\..\..\..\bin\client\debug\Represent2.dll
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPF23B.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Represent2.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPF326.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\engine\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT3_EXPORTS" /FR"Debug/" /Fp"Debug/Represent3.pch" /Yu"precompile.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent3\D3D_Device.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent3\D3D_Shell.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent3\D3D_Utils.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent3\KRepresentShell3.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent3\TextureRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent3\TextureResMgr.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPF326.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPF327.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\engine\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT3_EXPORTS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Font\KCharSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Font\KFont3.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Font\KFontData.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Font\KFontRes.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Font\KMRU.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\RepresentUtility.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\iRepresent\Text\TextProcess.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPF327.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPF328.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\engine\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT3_EXPORTS" /FR"Debug/" /Fp"Debug/Represent3.pch" /Yc"precompile.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Represent\Represent3\precompile.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPF328.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPF329.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d3dx9dt.lib d3d9.lib winmm.lib dxguid.lib ddraw.lib GdiPlus.lib /nologo /dll /incremental:no /pdb:"Debug/Represent3.pdb" /map:"Debug/Represent3.map" /debug /machine:I386 /out:"Debug/Represent3.dll" /implib:"Debug/Represent3.lib" /libpath:"..\..\..\Lib" 
+.\Debug\D3D_Device.obj
+.\Debug\D3D_Shell.obj
+.\Debug\D3D_Utils.obj
+.\Debug\KCharSet.obj
+.\Debug\KFont3.obj
+.\Debug\KFontData.obj
+.\Debug\KFontRes.obj
+.\Debug\KMRU.obj
+.\Debug\KRepresentShell3.obj
+.\Debug\precompile.obj
+.\Debug\RepresentUtility.obj
+.\Debug\TextProcess.obj
+.\Debug\TextureRes.obj
+.\Debug\TextureResMgr.obj
+..\..\..\Lib\debug\engine.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPF329.tmp"
+<h3>Output Window</h3>
+Compiling...
+precompile.cpp
+Compiling...
+D3D_Device.cpp
+D3D_Shell.cpp
+D3D_Utils.cpp
+KRepresentShell3.cpp
+TextureRes.cpp
+TextureResMgr.cpp
+Generating Code...
+Compiling...
+KCharSet.cpp
+KFont3.cpp
+KFontData.cpp
+KFontRes.cpp
+KMRU.cpp
+RepresentUtility.cpp
+TextProcess.cpp
+Generating Code...
+Linking...
+   Creating library Debug/Represent3.lib and object Debug/Represent3.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPFAAC.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug\
+copy Debug\Represent3.dll ..\..\..\..\bin\client\Represent3.dll
+copy Debug\Represent3.pdb ..\..\..\..\bin\client\Represent3.pdb
+copy Debug\Represent3.dll ..\..\..\..\bin\client\debug\Represent3.dll
+copy Debug\Represent3.pdb ..\..\..\..\bin\client\debug\Represent3.pdb
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSPFAAC.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Represent3.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Client - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Script1.res" /d "_DEBUG" "D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Script1.rc"" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPFC14.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "SWORDONLINE_SHOW_DBUG_INFO" /D "SWORDONLINE_USE_MD5_PASSWORD" /FR"Debug/" /Fp"Debug/S3Client.pch" /Yu"KWin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\AutoLocateWnd.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\ComWindow.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\MouseHover.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\PopupMenu.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\SpecialFuncs.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\TextPic.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\UiCursor.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\UiImage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndButton.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndChessPanel.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndEdit.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndImage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndImagePart.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndLabeledButton.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndList.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndList2.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndMessageListBox.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndMovingImage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndObjContainer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndPage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndPureTextBtn.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\Wnds.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndScrollBar.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\elem\WndShadow.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndShowAnimate.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndText.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndToolBar.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndValueImage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\Elem\WndWindow.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiConnectInfo.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiLogin.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiLoginBg.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiContainer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiFaceSelector.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayerBar.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiStatus.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiOptions.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiInit.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetMoney.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiItem.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSkills.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSkillTree.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\uicase\UiStoreBox.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiESCDlg.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetString.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiMsgSel.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiParadeItem.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelPlayerNearby.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPlayer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelNativePlace.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelPlayer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiChannelSubscibe.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatCentre.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiChatPhrase.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatStatus.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiInformation.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiInformation2.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiTeamManage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiHeaderControlBar.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\uicase\UiMsgCentrePad.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiToolsControlBar.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UIcase\UiShop.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiTrade.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiTradeConfirmWnd.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiGame.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSysMsgCentre.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\uicase\UiMiniMap.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelColor.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPlayerStartMsg.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayVideo.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiHelper.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiHelper2.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiReconnect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiTaskDataFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiTaskNote.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiWorldMap.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewsMessage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiStrengthRank.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\ui\uicase\UiPopupPasswordQuery.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\ui\uicase\UiTongAssignBox.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\ui\uicase\UiTongCreateSheet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiCase\UiTongGetString.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\ui\uicase\UiTongManager.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\ui\uicase\UiTrembleItem.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiSoundSetting.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\GameSpaceChangedNotify.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\ShortcutKey.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiBase.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\UiShell.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\ChatFilter.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Ui\FilterTextLib.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\S3Client.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\NetConnect\NetConnectAgent.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\Login\Login.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\TextCtrlCmd\TextCtrlCmd.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\ErrorCode.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPFC14.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPFC15.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "SWORDONLINE_SHOW_DBUG_INFO" /D "SWORDONLINE_USE_MD5_PASSWORD" /FR"Debug/" /Fp"Debug/S3Client.pch" /Yc"KWin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\S3Client\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSPFC15.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSPFC16.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Winmm.lib shlwapi.lib lualibdll.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/Game.pdb" /map:"Debug/Game.map" /debug /machine:I386 /out:"Debug/Game.exe" /libpath:"../../lib/" 
+.\Debug\AutoLocateWnd.obj
+.\Debug\ComWindow.obj
+.\Debug\MouseHover.obj
+.\Debug\PopupMenu.obj
+.\Debug\SpecialFuncs.obj
+.\Debug\TextPic.obj
+.\Debug\UiCursor.obj
+.\Debug\UiImage.obj
+.\Debug\WndButton.obj
+.\Debug\WndChessPanel.obj
+.\Debug\WndEdit.obj
+.\Debug\WndImage.obj
+.\Debug\WndImagePart.obj
+.\Debug\WndLabeledButton.obj
+.\Debug\WndList.obj
+.\Debug\WndList2.obj
+.\Debug\WndMessageListBox.obj
+.\Debug\WndMovingImage.obj
+.\Debug\WndObjContainer.obj
+.\Debug\WndPage.obj
+.\Debug\WndPureTextBtn.obj
+.\Debug\Wnds.obj
+.\Debug\WndScrollBar.obj
+.\Debug\WndShadow.obj
+.\Debug\WndShowAnimate.obj
+.\Debug\WndText.obj
+.\Debug\WndToolBar.obj
+.\Debug\WndValueImage.obj
+.\Debug\WndWindow.obj
+.\Debug\UiConnectInfo.obj
+.\Debug\UiLogin.obj
+.\Debug\UiLoginBg.obj
+.\Debug\UiSelServer.obj
+.\Debug\UiContainer.obj
+.\Debug\UiFaceSelector.obj
+.\Debug\UiPlayerBar.obj
+.\Debug\UiStatus.obj
+.\Debug\UiOptions.obj
+.\Debug\UiInit.obj
+.\Debug\UiGetMoney.obj
+.\Debug\UiItem.obj
+.\Debug\UiSkills.obj
+.\Debug\UiSkillTree.obj
+.\Debug\UiStoreBox.obj
+.\Debug\UiESCDlg.obj
+.\Debug\UiGetString.obj
+.\Debug\UiMsgSel.obj
+.\Debug\UiParadeItem.obj
+.\Debug\UiSelPlayerNearby.obj
+.\Debug\UiNewPlayer.obj
+.\Debug\UiSelNativePlace.obj
+.\Debug\UiSelPlayer.obj
+.\Debug\UiChannelSubscibe.obj
+.\Debug\UiChatCentre.obj
+.\Debug\UiChatPhrase.obj
+.\Debug\UiChatStatus.obj
+.\Debug\UiInformation.obj
+.\Debug\UiInformation2.obj
+.\Debug\UiTeamManage.obj
+.\Debug\UiHeaderControlBar.obj
+.\Debug\UiMsgCentrePad.obj
+.\Debug\UiToolsControlBar.obj
+.\Debug\UiShop.obj
+.\Debug\UiTrade.obj
+.\Debug\UiTradeConfirmWnd.obj
+.\Debug\UiGame.obj
+.\Debug\UiSysMsgCentre.obj
+.\Debug\UiMiniMap.obj
+.\Debug\UiSelColor.obj
+.\Debug\UiNewPlayerStartMsg.obj
+.\Debug\UiPlayVideo.obj
+.\Debug\UiHelper.obj
+.\Debug\UiHelper2.obj
+.\Debug\UiReconnect.obj
+.\Debug\UiTaskDataFile.obj
+.\Debug\UiTaskNote.obj
+.\Debug\UiWorldMap.obj
+.\Debug\UiNewsMessage.obj
+.\Debug\UiStrengthRank.obj
+.\Debug\UiPopupPasswordQuery.obj
+.\Debug\UiTongAssignBox.obj
+.\Debug\UiTongCreateSheet.obj
+.\Debug\UiTongGetString.obj
+.\Debug\UiTongManager.obj
+.\Debug\UiTrembleItem.obj
+.\Debug\UiSoundSetting.obj
+.\Debug\GameSpaceChangedNotify.obj
+.\Debug\ShortcutKey.obj
+.\Debug\UiBase.obj
+.\Debug\UiShell.obj
+.\Debug\ChatFilter.obj
+.\Debug\FilterTextLib.obj
+.\Debug\S3Client.obj
+.\Debug\NetConnectAgent.obj
+.\Debug\Login.obj
+.\Debug\TextCtrlCmd.obj
+.\Debug\ErrorCode.obj
+.\Debug\stdafx.obj
+.\Debug\Script1.res
+..\..\Lib\debug\engine.lib
+..\..\Lib\debug\CoreClient.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSPFC16.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+AutoLocateWnd.cpp
+ComWindow.cpp
+MouseHover.cpp
+PopupMenu.cpp
+SpecialFuncs.cpp
+TextPic.cpp
+UiCursor.cpp
+UiImage.cpp
+WndButton.cpp
+WndChessPanel.cpp
+WndEdit.cpp
+WndImage.cpp
+WndImagePart.cpp
+WndLabeledButton.cpp
+WndList.cpp
+WndList2.cpp
+WndMessageListBox.cpp
+WndMovingImage.cpp
+WndObjContainer.cpp
+WndPage.cpp
+Generating Code...
+Compiling...
+WndPureTextBtn.cpp
+Wnds.cpp
+WndScrollBar.cpp
+WndShadow.cpp
+WndShowAnimate.cpp
+WndText.cpp
+WndToolBar.cpp
+WndValueImage.cpp
+WndWindow.cpp
+UiConnectInfo.cpp
+UiLogin.cpp
+UiLoginBg.cpp
+UiSelServer.cpp
+UiContainer.cpp
+UiFaceSelector.cpp
+UiPlayerBar.cpp
+UiStatus.cpp
+UiOptions.cpp
+UiInit.cpp
+UiGetMoney.cpp
+Generating Code...
+Compiling...
+UiItem.cpp
+UiSkills.cpp
+UiSkillTree.cpp
+UiStoreBox.cpp
+UiESCDlg.cpp
+UiGetString.cpp
+UiMsgSel.cpp
+UiParadeItem.cpp
+UiSelPlayerNearby.cpp
+UiNewPlayer.cpp
+UiSelNativePlace.cpp
+UiSelPlayer.cpp
+UiChannelSubscibe.cpp
+UiChatCentre.cpp
+UiChatPhrase.cpp
+UiChatStatus.cpp
+UiInformation.cpp
+UiInformation2.cpp
+UiTeamManage.cpp
+UiHeaderControlBar.cpp
+Generating Code...
+Compiling...
+UiMsgCentrePad.cpp
+UiToolsControlBar.cpp
+UiShop.cpp
+UiTrade.cpp
+UiTradeConfirmWnd.cpp
+UiGame.cpp
+UiSysMsgCentre.cpp
+UiMiniMap.cpp
+UiSelColor.cpp
+UiNewPlayerStartMsg.cpp
+UiPlayVideo.cpp
+UiHelper.cpp
+UiHelper2.cpp
+UiReconnect.cpp
+UiTaskDataFile.cpp
+UiTaskNote.cpp
+UiWorldMap.cpp
+UiNewsMessage.cpp
+UiStrengthRank.cpp
+UiPopupPasswordQuery.cpp
+Generating Code...
+Compiling...
+UiTongAssignBox.cpp
+UiTongCreateSheet.cpp
+UiTongGetString.cpp
+UiTongManager.cpp
+UiTrembleItem.cpp
+UiSoundSetting.cpp
+GameSpaceChangedNotify.cpp
+ShortcutKey.cpp
+UiBase.cpp
+UiShell.cpp
+ChatFilter.cpp
+FilterTextLib.cpp
+S3Client.cpp
+NetConnectAgent.cpp
+Login.cpp
+TextCtrlCmd.cpp
+ErrorCode.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP221E.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug\
+copy debug\Game.exe ..\..\..\bin\Client\Game.exe
+copy debug\Game.exe ..\..\..\bin\Client\debug\Game.exe
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP221E.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Game.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Sword3PaySys - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Sword3PaySys.res" /d "_DEBUG" "D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\Sword3PaySys.rc"" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP24FD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\..\Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Sword3PaySys.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\GlobalFun.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\KThread.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\LogFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\main.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\S3P_MSSQLServer_Result.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\S3PAccount.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\S3PDB_MSSQLServer_Connection.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\S3PDBConnectionPool.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\S3PDBConVBC.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\S3PDBSocketPool.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\S3PResultVBC.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP24FD.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP24FE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\..\Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Sword3PaySys.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3AccServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP24FE.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP24FF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Sword3PaySys.pdb" /debug /machine:I386 /out:"Debug/Sword3PaySys.exe" /pdbtype:sept 
+.\Debug\GlobalFun.obj
+.\Debug\KThread.obj
+.\Debug\LogFile.obj
+.\Debug\main.obj
+.\Debug\S3P_MSSQLServer_Result.obj
+.\Debug\S3PAccount.obj
+.\Debug\S3PDB_MSSQLServer_Connection.obj
+.\Debug\S3PDBConnectionPool.obj
+.\Debug\S3PDBConVBC.obj
+.\Debug\S3PDBSocketPool.obj
+.\Debug\S3PResultVBC.obj
+.\Debug\StdAfx.obj
+.\Debug\Sword3PaySys.res
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP24FF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GlobalFun.cpp
+KThread.cpp
+LogFile.cpp
+main.cpp
+S3P_MSSQLServer_Result.cpp
+S3PAccount.cpp
+S3PDB_MSSQLServer_Connection.cpp
+S3PDBConnectionPool.cpp
+S3PDBConVBC.cpp
+S3PDBSocketPool.cpp
+S3PResultVBC.cpp
+Linking...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP30A9.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\multiserver\debug\
+copy debug\Sword3PaySys.exe ..\..\..\..\bin\multiserver\Sword3PaySys.exe
+copy debug\Sword3PaySys.exe ..\..\..\..\bin\multiserver\debug\Sword3PaySys.exe
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP30A9.bat"
+
+A subdirectory or file ..\..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Sword3PaySys.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3RelayServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Sword3RelaySys.res" /d "_DEBUG" "D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\Sword3RelaySys.rc"" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP3146.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/S3RelayServer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\GlobalFun.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\KThread.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\LogFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\main.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3P_MSSQLServer_Result.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PAccount.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDB_MSSQLServer_Connection.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConnectionPool.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConVBC.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBSocketPool.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\S3PResultVBC.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP3146.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP3147.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/S3RelayServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Sword3PaySys\S3RELAYSERVER\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP3147.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP3148.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/S3RelayServer.pdb" /debug /machine:I386 /out:"Debug/S3RelayServer.exe" /pdbtype:sept 
+.\Debug\GlobalFun.obj
+.\Debug\KThread.obj
+.\Debug\LogFile.obj
+.\Debug\main.obj
+.\Debug\S3P_MSSQLServer_Result.obj
+.\Debug\S3PAccount.obj
+.\Debug\S3PDB_MSSQLServer_Connection.obj
+.\Debug\S3PDBConnectionPool.obj
+.\Debug\S3PDBConVBC.obj
+.\Debug\S3PDBSocketPool.obj
+.\Debug\S3PResultVBC.obj
+.\Debug\StdAfx.obj
+.\Debug\Sword3RelaySys.res
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP3148.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GlobalFun.cpp
+KThread.cpp
+LogFile.cpp
+main.cpp
+S3P_MSSQLServer_Result.cpp
+S3PAccount.cpp
+S3PDB_MSSQLServer_Connection.cpp
+S3PDBConnectionPool.cpp
+S3PDBConVBC.cpp
+S3PDBSocketPool.cpp
+S3PResultVBC.cpp
+Linking...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP3E1A.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\multiserver\debug
+copy debug\S3RelayServer.exe ..\..\..\..\bin\multiserver\S3RelayServer.exe
+copy debug\S3RelayServer.exe ..\..\..\..\bin\multiserver\debug\S3RelayServer.exe
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP3E1A.bat"
+
+A subdirectory or file ..\..\..\..\bin\multiserver\debug already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+S3RelayServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Bishop - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Bishop.res" /d "_DEBUG" "D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\Bishop.rc"" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP3F73.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Common" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\..\lib" /I "..\..\..\Headers" /I "..\..\Sword3PaySys\S3AccServer" /I "..\..\s3client\login" /I "..\..\RoleDBManager" /I "..\..\Core\src" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Bishop.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\Application.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\Bishop.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Common\Event.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\GamePlayer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\GameServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\Intercessor.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\Network.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\PlayerCreator.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\SmartClient.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP3F73.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP3F74.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Common" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\..\lib" /I "..\..\..\Headers" /I "..\..\Sword3PaySys\S3AccServer" /I "..\..\s3client\login" /I "..\..\RoleDBManager" /I "..\..\Core\src" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Bishop.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Bishop\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP3F74.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP3F75.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Bishop.pdb" /debug /machine:I386 /out:"Debug/Bishop.exe" /pdbtype:sept 
+.\Debug\Application.obj
+.\Debug\Bishop.obj
+.\Debug\Event.obj
+.\Debug\GamePlayer.obj
+.\Debug\GameServer.obj
+.\Debug\Intercessor.obj
+.\Debug\Network.obj
+.\Debug\PlayerCreator.obj
+.\Debug\SmartClient.obj
+.\Debug\StdAfx.obj
+.\Debug\Bishop.res
+..\..\..\Lib\debug\common.lib
+..\..\..\Lib\debug\engine.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP3F75.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Application.cpp
+Bishop.cpp
+Event.cpp
+GamePlayer.cpp
+GameServer.cpp
+Intercessor.cpp
+Network.cpp
+PlayerCreator.cpp
+SmartClient.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP510A.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\multiserver\debug\
+copy debug\Bishop.exe ..\..\..\..\bin\multiserver\debug\Bishop.exe
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP510A.bat"
+
+A subdirectory or file ..\..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Bishop.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GameServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP5263.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /Zi /Od /I "..\Common\\" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\roledbserver" /I "..\..\..\lib\\" /I "..\..\..\Headers\\" /I "..\..\..\Sources\Engine\src" /I "..\..\..\Sources\Engine\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fp"Debug/GameServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\GameServer\GameServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\GameServer\KSOServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\GameServer\KTransferUnit.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP5263.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP5264.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /Zi /Od /I "..\Common\\" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\roledbserver" /I "..\..\..\lib\\" /I "..\..\..\Headers\\" /I "..\..\..\Sources\Engine\src" /I "..\..\..\Sources\Engine\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fp"Debug/GameServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\GameServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP5264.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP5265.tmp" with contents
+[
+Engine.lib Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib LIBCMTD.lib LIBCMT.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/GameServer.pdb" /debug /machine:I386 /out:"Debug/GameServer.exe" /pdbtype:sept 
+.\Debug\GameServer.obj
+.\Debug\KSOServer.obj
+.\Debug\KTransferUnit.obj
+.\Debug\StdAfx.obj
+..\..\..\Lib\debug\engine.lib
+..\..\..\Lib\debug\CoreServer.lib
+..\..\..\Lib\debug\common.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP5265.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+GameServer.cpp
+KSOServer.cpp
+KTransferUnit.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP5796.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\server\debug
+copy debug\GameServer.exe ..\..\..\..\bin\Server\GameServer.exe
+copy debug\GameServer.exe ..\..\..\..\bin\Server\debug\GameServer.exe
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP5796.bat"
+
+A subdirectory or file ..\..\..\..\bin\server\debug already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+GameServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Goddess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Goddess.res" /d "_DEBUG" "D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\Goddess.rc"" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP5804.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Common\\" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\..\lib" /I "..\..\..\Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Goddess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\ClientNode.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\DBBackup.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\DBDumpLoad.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\DBTable.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\FilterTextLib.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\Goddess.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\IDBRoleServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\RoleNameFilter.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP5804.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP5805.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Common\\" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\..\lib" /I "..\..\..\Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Goddess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Goddess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP5805.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP5806.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib LIBCMTD.lib libcmt.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Goddess.pdb" /debug /machine:I386 /out:"Debug/Goddess.exe" /pdbtype:sept 
+.\Debug\ClientNode.obj
+.\Debug\DBBackup.obj
+.\Debug\DBDumpLoad.obj
+.\Debug\DBTable.obj
+.\Debug\FilterTextLib.obj
+.\Debug\Goddess.obj
+.\Debug\IDBRoleServer.obj
+.\Debug\RoleNameFilter.obj
+.\Debug\StdAfx.obj
+.\Debug\Goddess.res
+..\..\..\Lib\debug\common.lib
+.\libdb41s.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP5806.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientNode.cpp
+DBBackup.cpp
+DBDumpLoad.cpp
+DBTable.cpp
+FilterTextLib.cpp
+Goddess.cpp
+IDBRoleServer.cpp
+RoleNameFilter.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP60C1.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\multiserver\debug\
+copy debug\Goddess.exe ..\..\..\..\bin\multiserver\Goddess.exe
+copy debug\Goddess.exe ..\..\..\..\bin\multiserver\debug\Goddess.exe
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP60C1.bat"
+
+A subdirectory or file ..\..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Goddess.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Heaven - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP615F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HEAVEN_EXPORTS" /FR"Debug/" /Fp"Debug/Heaven.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Heaven\Heaven.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Heaven\IServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Heaven\ServerStage.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP615F.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP6160.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/Heaven.pdb" /map:"Debug/Heaven.map" /debug /machine:I386 /def:".\Heaven.def" /out:"Debug/Heaven.dll" /implib:"Debug/Heaven.lib" /pdbtype:sept 
+.\Debug\Heaven.obj
+.\Debug\IServer.obj
+.\Debug\ServerStage.obj
+..\..\..\Lib\debug\common.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP6160.tmp"
+<h3>Output Window</h3>
+Compiling...
+Heaven.cpp
+* ATTENTION : PLEASE USE IT IN ANSI SETTING *
+IServer.cpp
+ServerStage.cpp
+Linking...
+   Creating library Debug/Heaven.lib and object Debug/Heaven.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP6549.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug\
+copy debug\heaven.dll ..\..\..\..\bin\client\heaven.dll
+copy debug\heaven.dll ..\..\..\..\bin\client\debug\heaven.dll
+md ..\..\..\bin\server\debug\
+copy debug\heaven.dll ..\..\..\..\bin\server\heaven.dll
+copy debug\heaven.dll ..\..\..\..\bin\server\debug\heaven.dll
+md ..\..\..\bin\multiserver\debug\
+copy debug\heaven.dll ..\..\..\..\bin\multiserver\heaven.dll
+copy debug\heaven.dll ..\..\..\..\bin\multiserver\debug\heaven.dll
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP6549.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Heaven.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Rainbow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP6663.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RAINBOW_EXPORTS" /Fp"Debug/Rainbow.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Rainbow\IClient.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Rainbow\Rainbow.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\Rainbow\ClientStage.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP6663.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP6664.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/Rainbow.pdb" /map:"Debug/Rainbow.map" /debug /machine:I386 /def:".\Rainbow.def" /out:"Debug/Rainbow.dll" /implib:"Debug/Rainbow.lib" /pdbtype:sept 
+.\Debug\IClient.obj
+.\Debug\Rainbow.obj
+.\Debug\ClientStage.obj
+..\..\..\Lib\debug\common.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP6664.tmp"
+<h3>Output Window</h3>
+Compiling...
+IClient.cpp
+Rainbow.cpp
+* ATTENTION : PLEASE USE IT IN ANSI SETTING *
+ClientStage.cpp
+Linking...
+   Creating library Debug/Rainbow.lib and object Debug/Rainbow.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP69E0.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug\
+copy debug\Rainbow.dll ..\..\..\..\bin\client\Rainbow.dll
+copy debug\Rainbow.dll ..\..\..\..\bin\client\debug\Rainbow.dll
+md ..\..\..\bin\server\debug\
+copy debug\Rainbow.dll ..\..\..\..\bin\server\Rainbow.dll
+copy debug\Rainbow.dll ..\..\..\..\bin\server\debug\Rainbow.dll
+md ..\..\..\bin\multiserver\debug\
+copy debug\Rainbow.dll ..\..\..\..\bin\multiserver\Rainbow.dll
+copy debug\Rainbow.dll ..\..\..\..\bin\multiserver\debug\Rainbow.dll
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP69E0.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Rainbow.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Relay - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/S3Relay.res" /d "_DEBUG" "D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\S3Relay.rc"" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP6B09.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_WORKMODE_SINGLETHREAD" /D "_TESTING" /FR"Debug/" /Fp"Debug/S3Relay.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\ChannelMgr.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\ChatConnect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\ChatServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\DBConnect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\DBTable.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\DealRelay.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\DoScript.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\FriendMgr.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\GatewayCenter.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\GatewayClient.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\Global.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\HeavenLib.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\HostConnect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\HostServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\KThread.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\Lock.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\LogFile.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\Memory.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\NetCenter.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\NetClient.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\NetConnect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\NetServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\NetSockDupEx.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\RainbowLib.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\RelayCenter.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\RelayClient.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\RelayConnect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\RelayServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\RootCenter.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\RootClient.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\S3Relay.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\SockThread.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\TongConnect.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\TongServer.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\KTongControl.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\KTongSet.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\TONGDB.CPP"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP6B09.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP6B0A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_WORKMODE_SINGLETHREAD" /D "_TESTING" /FR"Debug/" /Fp"Debug/S3Relay.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\MultiServer\S3Relay\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP6B0A.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP6B0B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib lualibdll.lib LIBCMTD.lib libcmt.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/S3Relay.pdb" /debug /machine:I386 /out:"Debug/S3Relay.exe" /pdbtype:sept 
+.\Debug\ChannelMgr.obj
+.\Debug\ChatConnect.obj
+.\Debug\ChatServer.obj
+.\Debug\DBConnect.obj
+.\Debug\DBTable.obj
+.\Debug\DealRelay.obj
+.\Debug\DoScript.obj
+.\Debug\FriendMgr.obj
+.\Debug\GatewayCenter.obj
+.\Debug\GatewayClient.obj
+.\Debug\Global.obj
+.\Debug\HeavenLib.obj
+.\Debug\HostConnect.obj
+.\Debug\HostServer.obj
+.\Debug\KThread.obj
+.\Debug\Lock.obj
+.\Debug\LogFile.obj
+.\Debug\Memory.obj
+.\Debug\NetCenter.obj
+.\Debug\NetClient.obj
+.\Debug\NetConnect.obj
+.\Debug\NetServer.obj
+.\Debug\NetSockDupEx.obj
+.\Debug\RainbowLib.obj
+.\Debug\RelayCenter.obj
+.\Debug\RelayClient.obj
+.\Debug\RelayConnect.obj
+.\Debug\RelayServer.obj
+.\Debug\RootCenter.obj
+.\Debug\RootClient.obj
+.\Debug\S3Relay.obj
+.\Debug\SockThread.obj
+.\Debug\StdAfx.obj
+.\Debug\TongConnect.obj
+.\Debug\TongServer.obj
+.\Debug\KTongControl.obj
+.\Debug\KTongSet.obj
+.\Debug\TONGDB.OBJ
+.\Debug\S3Relay.res
+..\..\..\Lib\debug\engine.lib
+.\libdb41s.lib
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP6B0B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChannelMgr.cpp
+ChatConnect.cpp
+ChatServer.cpp
+DBConnect.cpp
+DBTable.cpp
+DealRelay.cpp
+DoScript.cpp
+FriendMgr.cpp
+GatewayCenter.cpp
+GatewayClient.cpp
+Global.cpp
+HeavenLib.cpp
+HostConnect.cpp
+HostServer.cpp
+KThread.cpp
+Lock.cpp
+LogFile.cpp
+Memory.cpp
+NetCenter.cpp
+NetClient.cpp
+Generating Code...
+Compiling...
+NetConnect.cpp
+NetServer.cpp
+NetSockDupEx.cpp
+RainbowLib.cpp
+RelayCenter.cpp
+RelayClient.cpp
+RelayConnect.cpp
+RelayServer.cpp
+RootCenter.cpp
+RootClient.cpp
+S3Relay.cpp
+SockThread.cpp
+TongConnect.cpp
+TongServer.cpp
+KTongControl.cpp
+KTongSet.cpp
+TONGDB.CPP
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP8AC9.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\multiserver\debug\
+copy debug\S3Relay.exe ..\..\..\..\bin\multiserver\S3Relay.exe
+copy debug\S3Relay.exe ..\..\..\..\bin\multiserver\debug\S3Relay.exe
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP8AC9.bat"
+
+A subdirectory or file ..\..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+S3Relay.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: LuaLibDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP8C90.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\src" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LUALIBDLL_EXPORTS" /Fp"Debug/LuaLibDll.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lapi.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lcode.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\ldebug.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\ldo.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lfunc.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lgc.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\llex.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lmem.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lobject.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lparser.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lstate.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lstring.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\ltable.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\ltests.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\ltm.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lua.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\LuaExtend.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lundump.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lvm.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\lzio.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\baselib\lauxlib.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\baselib\lbaselib.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\baselib\ldblib.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\baselib\liolib.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\baselib\lmathlib.c"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\Library\LuaLib\src\baselib\lstrlib.c"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP8C90.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP8C91.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/LuaLibDll.pdb" /debug /machine:I386 /out:"Debug/LuaLibDll.dll" /implib:"Debug/LuaLibDll.lib" /pdbtype:sept 
+.\Debug\lapi.obj
+.\Debug\lcode.obj
+.\Debug\ldebug.obj
+.\Debug\ldo.obj
+.\Debug\lfunc.obj
+.\Debug\lgc.obj
+.\Debug\llex.obj
+.\Debug\lmem.obj
+.\Debug\lobject.obj
+.\Debug\lparser.obj
+.\Debug\lstate.obj
+.\Debug\lstring.obj
+.\Debug\ltable.obj
+.\Debug\ltests.obj
+.\Debug\ltm.obj
+.\Debug\lua.obj
+.\Debug\LuaExtend.obj
+.\Debug\lundump.obj
+.\Debug\lvm.obj
+.\Debug\lzio.obj
+.\Debug\lauxlib.obj
+.\Debug\lbaselib.obj
+.\Debug\ldblib.obj
+.\Debug\liolib.obj
+.\Debug\lmathlib.obj
+.\Debug\lstrlib.obj
+]
+Creating command line "link.exe @C:\Users\clien\AppData\Local\Temp\RSP8C91.tmp"
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+Create LUA dllexport
+lcode.c
+Create LUA dllexport
+ldebug.c
+Create LUA dllexport
+ldo.c
+Create LUA dllexport
+lfunc.c
+Create LUA dllexport
+lgc.c
+Create LUA dllexport
+llex.c
+Create LUA dllexport
+lmem.c
+Create LUA dllexport
+lobject.c
+Create LUA dllexport
+lparser.c
+Create LUA dllexport
+lstate.c
+Create LUA dllexport
+lstring.c
+Create LUA dllexport
+ltable.c
+Create LUA dllexport
+ltests.c
+Create LUA dllexport
+ltm.c
+Create LUA dllexport
+lua.c
+Create LUA dllexport
+LuaExtend.c
+Create LUA dllexport
+lundump.c
+Create LUA dllexport
+lvm.c
+Create LUA dllexport
+lzio.c
+Create LUA dllexport
+lauxlib.c
+Create LUA dllexport
+lbaselib.c
+Create LUA dllexport
+ldblib.c
+Create LUA dllexport
+liolib.c
+Create LUA dllexport
+lmathlib.c
+Create LUA dllexport
+lstrlib.c
+Create LUA dllexport
+Linking...
+   Creating library Debug/LuaLibDll.lib and object Debug/LuaLibDll.exp
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP900C.bat" with contents
+[
+@echo off
+copy debug\lualibdll.lib ..\..\..\Lib\lualibdll.lib
+copy debug\lualibdll.dll ..\..\..\Lib\lualibdll.dll
+md ..\..\..\bin\client\debug\
+copy debug\lualibdll.dll ..\..\..\..\bin\client\lualibdll.dll
+md ..\..\..\bin\server\debug\
+copy debug\lualibdll.dll ..\..\..\..\bin\server\lualibdll.dll
+md ..\..\..\bin\multiserver\debug\
+copy debug\lualibdll.dll ..\..\..\..\bin\multiserver\lualibdll.dll
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP900C.bat"
+
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\debug\ already exists.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+LuaLibDll.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExpandPackageStaticLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP909A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/ExpandPackageStaticLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\BlockSource.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\DataPointFromStream.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\DataSource.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\ExpandPackage.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\Interval.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\Package.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\PackageFileHead.cpp"
+"D:\Game\Offline\Project\JX\swrod3\SwordOnline\Sources\ExpandPackage2.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\clien\AppData\Local\Temp\RSP909A.tmp" 
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP909B.tmp" with contents
+[
+/nologo /out:"Debug\ExpandPackageStaticLib.lib" 
+.\Debug\BlockSource.obj
+.\Debug\DataPointFromStream.obj
+.\Debug\DataSource.obj
+.\Debug\ExpandPackage.obj
+.\Debug\Interval.obj
+.\Debug\Package.obj
+.\Debug\PackageFileHead.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe -lib @C:\Users\clien\AppData\Local\Temp\RSP909B.tmp"
+<h3>Output Window</h3>
+Compiling...
+BlockSource.cpp
+DataPointFromStream.cpp
+DataSource.cpp
+ExpandPackage.cpp
+Interval.cpp
+Package.cpp
+PackageFileHead.cpp
+StdAfx.cpp
+Creating library...
+Creating temporary file "C:\Users\clien\AppData\Local\Temp\RSP9484.bat" with contents
+[
+@echo off
+copy Debug\ExpandPackageStaticLib.lib ..\..\lib\debug\ExpandPackageStaticLib.lib
+]
+Creating command line "C:\Users\clien\AppData\Local\Temp\RSP9484.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ExpandPackageStaticLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
